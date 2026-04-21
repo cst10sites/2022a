@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Assignment 4</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1>
+      <i
+        ><b
+          ><div>
+            &nbsp&nbsp&nbsp&nbsp<span style="color: #ac2455">S</span>
+            <span style="color: #54863f">I</span>
+            <span style="color: #ffe34c">M</span>
+            <span style="color: #367baf">O</span>
+            <span style="color: #ac2455">N</span> &nbsp
+            <span style="color: #54863f">S</span>
+            <span style="color: #ffe34c">A</span>
+            <span style="color: #367baf">Y</span>
+            <span style="color: #ac2455">S</span>
+            <br />
+            &nbsp&nbsp&nbsp&nbsp&nbsp<span style="color: #54863f">H</span>
+            <span style="color: #ffe34c">A</span>
+            <span style="color: #367baf">R</span>
+            <span style="color: #ac2455">D</span>&nbsp
+            <span style="color: #54863f">M</span>
+            <span style="color: #ffe34c">O</span>
+            <span style="color: #367baf">D</span>
+            <span style="color: #ac2455">E</span>
+          </div>
+        </b></i
+      >
+    </h1>
+
+    <p>Score: <span id="scoreDisplay"> </span></p>
+    <p>Time Left: <span id="timeDisplay"> 15 </span></p>
+    <p>Simon Says: <span id="colorDisplay"> </span></p>
+    <p>Highscore: <span id="highscoreDisplay"> </span></p>
+    <br />
+    <button
+      type="button"
+      id="Bred"
+      class="button buttonred"
+      onclick="clickColor('Red');"
+    >
+      RED
+    </button>
+    <button
+      type="button"
+      id="Bgreen"
+      class="button buttongreen"
+      onclick="clickColor('Green');"
+    >
+      GREEN
+    </button>
+    <button
+      type="button"
+      id="Byellow"
+      class="button buttonyellow"
+      onclick="clickColor('Yellow');"
+    >
+      YELLOW
+    </button>
+    <button
+      type="button"
+      id="Bblue"
+      class="button buttonblue"
+      onclick="clickColor('Blue');"
+    >
+      BLUE
+    </button>
+
+    <br />
+    <br />
+    <button
+      type="button"
+      id="Bstart"
+      class="button buttonstart"
+      onclick="StartStop();"
+    >
+      START
+    </button>
+
+    <button
+      type="button"
+      id="Bhard"
+      class="button buttonhard"
+      onclick="window.location.href='index.html'"
+    >
+      EASY
+    </button>
+
+    <p id="timeDisplayed"></p>
+    <p id="timeElapsed"></p>
+
+    <script src="hard.js"></script>
+  </body>
+</html>

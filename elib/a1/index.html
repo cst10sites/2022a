@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Assignement 1</title>
+</head>
+<body>
+<h1>About me</h1>
+<!--This has errors in the validator but it is the same code from the w3schools and it functions as its supposed to.-->
+<!--tinyurl.com/cst10html-->
+
+<meta name="viewport" charset= "UTF-8" content="width=device-width, initial-scale=1">
+<style>
+.container {
+  position: relative;
+  width: 50%;
+}
+
+.image {
+  opacity: 1;
+  display: block;
+  width: 25%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 25%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.container:hover .image {
+  opacity: 0.3;
+}
+
+.container:hover .middle {
+  opacity: 1;
+}
+
+
+
+body	{
+background-color :#fa4454;	
+
+}
+
+
+p	{
+color : white;
+}
+
+
+h1	{
+color : white;
+}
+</style>
+
+<p>Hello i'm Eli some of my hobbies are playing and watching video games(Valorant, Apex Legends and Overwatch) 
+and sports(Basketball, Soccer and Ultimate)! 
+Valorant is definitly what i'm doing most out of those right now though. 
+My fravorite fast food restaurant is Subway, 
+I often go there after school or during lunch with my friends.</p>
+<p>The reason I took this course is because i'd like to learn more about computers and coding in general, 
+my mom is a computer scientist so I thought maybe I should follow in her footsteps. 
+So far i've learned the begginings of HTML and have gotten pretty confident in my gamemaking ability in GameMaker.</p>
+
+
+
+  <a target = "_blank" href ="https://playvalorant.com/en-us/">
+<div class="container">
+  <img src="https://static-cdn.jtvnw.net/ttv-boxart/VALORANT.jpg" alt="Valorant Link" class="image" style="width:50%">
+  </div>
+</div> 
+</a>
+
+<hr>
+<h1>Hyperlinks</h1>
+
+
+
+
+ <p> To keep up with all your favorite sports teams, like me <a href="https://www.espn.com/">Click Here</a></p>
+
+</body>
+</html>

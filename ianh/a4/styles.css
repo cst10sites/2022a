@@ -1,0 +1,89 @@
+body {
+  background-color: #061c39;
+  background-image: linear-gradient(#061c39, #405765);
+  color: #cccdd3;
+  margin: 100px 50px;
+  font-family: Oswald;
+  font-size: 3vh; /* will take up a third of the screen */
+  font-size: 3vw;
+  text-shadow: 5px 5px 5px black;
+}
+h1 {
+  font-size: 300%;
+  text-shadow: 10px 10px 10px black;
+}
+
+.button {
+  background-color: #ffffff; /* Green */
+  border: none;
+  color: #cccdd3;
+  font-family: Roboto Mono;
+  padding: 15px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-width: 7px;
+  border-radius: 10px;
+  border-style: solid;
+  border-color: white;
+  margin: 4px 2px;
+  font-size: 3vh; /* will take up a third of the screen */
+  font-size: 3vw;
+  width: 33%;
+  height: 33%;
+  transition: transform 0.3s;
+}
+.button:hover {
+  /* makes button enlarge */
+  -ms-transform: scale(1.1); /* IE 9 */
+  -webkit-transform: scale(1.1); /* Safari 3-8 */
+  transform: scale(1.1);
+  text-shadow: 2px 2px 5px black;
+  box-shadow: 5px 5px 2.5px black;
+}
+
+.buttonred {
+  width: 33%;
+  height: 33%;
+  background-color: #ac2455;
+  border-color: Red;
+}
+.buttongreen {
+  width: 33%;
+  height: 33%;
+  background-color: #54863f;
+  border-color: Green;
+}
+.buttonyellow {
+  width: 33%;
+  height: 33%;
+  background-color: #ffe34c;
+  border-color: Yellow;
+}
+.buttonblue {
+  width: 33%;
+  height: 33%;
+  background-color: #367baf;
+  border-color: blue;
+}
+.buttonstart {
+  width: 33%;
+  height: 33%;
+  background-color: #cccdd3;
+  border-color: lightgrey;
+  color: black;
+}
+.buttoneasy {
+  width: 33%;
+  height: 33%;
+  background-color: #850f0f;
+  border-color: rgb(112, 16, 16);
+  color: black;
+}
+.buttonhard {
+  width: 33%;
+  height: 33%;
+  background-color: #2fbe3b;
+  border-color: rgb(72, 233, 107);
+  color: black;
+}

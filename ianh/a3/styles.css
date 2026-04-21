@@ -1,0 +1,35 @@
+body {
+  background-color: #061c39;
+  text-align: center;
+  color: #cccdd3;
+  margin: 100px 50px;
+  font-family: Oswald;
+  font-size: 3vh; /* will take up a third of the screen */
+  font-size: 3vw;
+  text-shadow: 5px 5px 5px black;
+
+}
+button {
+	color: #4154c0;
+	background-color: #a2caff;
+
+}
+img {
+	width: 50px;
+	height: 50px;
+}
+table {
+  border-collapse: collapse;
+  
+}
+th,
+td {
+  text-align: left;
+  padding: 5px;
+}
+
+table,
+th,
+td {
+  border: 2px solid white;
+}
