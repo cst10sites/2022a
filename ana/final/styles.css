@@ -1,0 +1,109 @@
+
+body {
+		background-color: white;
+		color: black;
+		font-family: Copperplate;
+		font-stretch: expanded;
+		margin: 25px 40px;
+		text-align: center;
+background-image:  url('https://i.pinimg.com/564x/29/4a/96/294a96785f52e81402cfa59894b5cffd.jpg');
+}
+#demoboxx {
+
+	text-decoration: underline;
+  background-color: white ;
+  padding: 10px ;
+opacity:0.8;
+}
+
+#demobox {
+
+  background-color: white;
+  padding: 10px ;
+opacity:0.85;
+}
+#demo {
+	text-decoration: underline;
+	color: white;
+	<iframe width="560" height="315" src="https://www.youtube.com/embed/6702T9bn0_A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+}
+h1 {
+	font-size: 50px;
+}
+
+h2 {
+	font-size: 40px;
+}
+h3 {
+	font-size: 40px;
+}
+p{
+	font-size: 25px;
+}
+
+.topnav {
+  background-color: #333;
+  overflow: hidden;
+}
+
+.topnav a {
+  float: left;
+  color: #FFFFFF;
+  text-align: center;
+  padding: 0.1px 20px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #9ACD32;
+  color: white;
+}
+
+.moves {
+
+  background-color: white ;
+  padding: 10px ;
+opacity:0.8;
+}
+
+.passion {
+
+
+  background-color: white ;
+  padding: 10px ;
+opacity:0.8;
+}
+
+.quiz {
+
+
+  background-color: white ;
+  padding: 10px ;
+opacity:0.8;
+}
+
+#apparel {
+
+  background-color: white ;
+  padding: 10px ;
+opacity:0.8;
+}
+.iframe-container {
+	position: relative;
+	width: 70%;
+}
+	
+	
+	
+	
+	
+	
+	
+	
+	
