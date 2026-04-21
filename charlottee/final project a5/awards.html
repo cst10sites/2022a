@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Ariana Grande</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" href="aricloud.ico">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color:lavenderblush;
+  margin: 25px 40px;
+  background-image: url("aripos.jpeg");
+}
+
+button{
+    border: lavenderblush;
+    color:pink;
+    background-color: lavenderblush;
+}
+
+button:hover{
+    color:white;
+    transition: all .5s linear;
+    background-color: pink;
+}
+
+header {
+  background-color: white;
+  padding: 30px;
+  text-align: center;
+  font-size: 50px;
+  color: pink;
+}
+
+
+nav {
+  width: 100%;
+  background:lavenderblush;
+  padding: 20px;
+}
+
+
+.navbar {
+  background-color:lavenderblush;
+  overflow: hidden;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: pink;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar a:hover {
+  background-color: white;
+  color: pink;
+}
+
+.navbar a.active {
+  background-color: lavenderblush;
+  color: white;
+}
+.main {
+  margin-left: 140px; /* Same width as the sidebar + left position in px */
+  font-size: 28px; /* Increased text to enable scrolling */
+  padding: 0px 10px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+img{
+    width: 25%;
+}
+
+
+article {
+  
+  padding: 20px;
+  width: 100%;
+  background-color:white;
+  color:pink;
+  text-align: center;
+
+}
+
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+footer {
+  background-color:pink;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+/* The actual timeline (the vertical ruler) */
+.timeline {
+  position: relative;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* The actual timeline (the vertical ruler) */
+.timeline::after {
+  content: '';
+  position: absolute;
+  width: 6px;
+  background-color: pink;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  margin-left: -3px;
+}
+
+/* Container around content */
+.container {
+  padding: 10px 40px;
+  position: relative;
+  background-color: inherit;
+  width: 50%;
+}
+
+/* The circles on the timeline */
+.container::after {
+  content: '';
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  right: -17px;
+  background-color: white;
+  border: 4px solid pink;
+  top: 15px;
+  border-radius: 50%;
+  z-index: 1;
+}
+
+/* Place the container to the left */
+.left {
+  left: 0;
+}
+
+/* Place the container to the right */
+.right {
+  left: 50%;
+}
+
+/* Add arrows to the left container (pointing right) */
+.left::before {
+  content: " ";
+  height: 0;
+  position: absolute;
+  top: 22px;
+  width: 0;
+  z-index: 1;
+  right: 30px;
+  border: medium solid pink;
+  border-width: 10px 0 10px 10px;
+  border-color: pink;
+}
+
+/* Add arrows to the right container (pointing left) */
+.right::before {
+  content: " ";
+  height: 0;
+  position: absolute;
+  top: 22px;
+  width: 0;
+  z-index: 1;
+  left: 30px;
+  border: medium solid pink;
+  border-width: 10px 10px 10px 0;
+  border-color: pink;
+}
+
+/* Fix the circle for containers on the right side */
+.right::after {
+  left: -16px;
+}
+
+/* The actual content */
+.content {
+  padding: 20px 30px;
+  background-color: pink;
+  position: relative;
+  border-radius: 6px;
+  color: white;
+}
+
+/* Media queries - Responsive timeline on screens less than 600px wide */
+@media screen and (max-width: 600px) {
+  /* Place the timelime to the left */
+  .timeline::after {
+  left: 31px;
+  }
+  
+  /* Full-width containers */
+  .container {
+  width: 100%;
+  padding-left: 70px;
+  padding-right: 25px;
+  }
+  
+  /* Make sure that all arrows are pointing leftwards */
+  .container::before {
+  left: 60px;
+  border: medium solid white;
+  border-width: 10px 10px 10px 0;
+  border-color: transparent white transparent transparent;
+  }
+
+  /* Make sure all circles are at the same spot */
+  .left::after, .right::after {
+  left: 15px;
+  }
+  
+  /* Make all right containers behave like the left ones */
+  .right {
+  left: 0%;
+  }
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: lavenderblush;
+  opacity:1.0;
+}
+
+.topnav a {
+  float: left;
+  color: pink;
+  text-align: center;
+  padding: 20px 30px;
+  text-decoration: none;
+  font-size: 15px;
+}
+
+.topnav a:hover {
+  background-color: pink;
+  color: white;
+  transition: all .5s linear;
+}
+
+
+</style>
+</head>
+
+<body>
+<header>ARIANA GRANDE</header>
+
+<div class="topnav">
+  <a  href="index.html">HOME</a>
+  <a href="awards.html">AWARDS</a>
+  <a href="songs.html">SONGS</a>
+  <a href="beauty.html">PERFUMES</a>
+  <a href="quiz.html">QUIZ</a>
+  
+</div>
+	<br>
+  <br>
+ 
+	<article>
+	<p>Throughout her career so far, Ariana Grande has won a total of 175 awards. She has been nominated for 486 awards in total. Here are a few of her awards that she has been awarded throughout 2014-2021.</p>
+	</article>
+  <br>
+	<div class="timeline">
+  <div class="container left">
+    <div class="content">
+      <h2>2014</h2>
+      <h4>MTV Europe Music Award for Best Female.</h4>
+    </div>
+  </div>
+  <div class="container right">
+    <div class="content">
+      <h2>2014</h2>
+      <h4>Nickelodeon kids choice awards</h4>
+     <p>Favourtie TV actress "Sam and Cat" - Cat</p> 
+    </div>
+  </div>
+  <div class="container left">
+    <div class="content">
+      <h2>2015</h2>
+      <h4>Nickelodeon kid's choice awards</h4>
+      <p>Song of the year - "Bang Bang"</p>
+    </div>
+  </div>
+  <div class="container right">
+    <div class="content">
+      <h2>2015</h2>
+      <h4>ASCAP pop music awards</h4>
+      <p>Most performed songs - "Problem" ft. Iggy Azalea</p>
+      <p>Publisher of the year</p>
+    </div>
+  </div>
+  <div class="container left">
+    <div class="content">
+      <h2>2016</h2>
+      <h4>Nickelodeon kids choice awards</h4>
+      <p>Favourite feamle artist</p>
+    </div>
+  </div>
+  <div class="container right">
+    <div class="content">
+      <h2>2018</h2>
+      <h4>ASCAP pop music awards</h4>
+      <p>Winning song - "Side to side" ft. Nicki Minaj</p>
+    </div>
+  </div>
+  <div class="container left">
+    <div class="content">
+      <h2>2019</h2>
+      <h4>Billboard music awards</h4>
+      <p>Top female artist and billboard chart achievement award.</p>
+    </div>
+  </div>
+  <div class="container right">
+    <div class="content">
+      <h2>2019</h2>
+      <h4>Nickelodeon kids choice awards</h4>
+      <p>Favourite song - "thank you, next" and Favourite artist</p>
+    </div>
+  </div>
+  <div class="container left">
+    <div class="content">
+      <h2>2019</h2>
+      <h4>ASCAP pop music awards</h4>
+      <p>Winning songs: "God is a woman" and "no tears left to cry"</p>
+    </div>
+  </div>
+  <div class="container right">
+    <div class="content">
+      <h2>2019</h2>
+      <h4>Grammy awards</h4>
+      <p>Best vocal pop album - "Sweetener" and Best pop Duo/ Group performance - "rain on me" ft. Lady Gaga </p>
+    </div>
+  </div>
+  <div class="container left">
+    <div class="content">
+      <h2>2020</h2>
+      <h4>Nickelodeon kids choice awards</h4>
+      <p>Favourite female artist</p>
+    </div>
+  </div>
+  <div class="container right">
+    <div class="content">
+      <h2>2020</h2>
+      <h4>ASCAP pop music awards</h4>
+      <p>Winning songs: "7 rings", "Break up with your girlfriend, im bored", "thank you, next" and "Breathin"</p>
+    </div>
+  </div>
+  <div class="container left">
+    <div class="content">
+      <h2>2021</h2>
+      <h4>Nickelodeon kids choice awards</h4>
+      <p>Favourite female artist and Favourite music collaboration - "Stuck with U" ft. Justin Bieber</p>
+    </div>
+  </div>
+</div>
+
+
+
+</body>
+</html>

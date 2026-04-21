@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Ariana Grande</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" href="aricloud.ico">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color:lavenderblush;
+  margin: 25px 40px;
+  background-image: url("ariana4.jpg");
+}
+
+button{
+    border: lavenderblush;
+    color:pink;
+    background-color: lavenderblush;
+}
+
+button:hover{
+    color:white;
+    transition: all .5s linear;
+    background-color: pink;
+}
+
+header {
+  background-color: white;
+  padding: 30px;
+  text-align: center;
+  font-size: 50px;
+  color: pink;
+}
+
+
+nav {
+  width: 100%;
+  background:lavenderblush;
+  padding: 20px;
+}
+
+
+.navbar {
+  background-color:lavenderblush;
+  overflow: hidden;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+/* Style the links inside the navigation bar */
+.navbar a {
+  float: left;
+  display: block;
+  color: pink;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.navbar a:hover {
+  background-color: white;
+  color: pink;
+}
+
+/* Add a color to the active/current link */
+.navbar a.active {
+  background-color: lavenderblush;
+  color: white;
+}
+.main {
+  margin-left: 140px; /* Same width as the sidebar + left position in px */
+  font-size: 28px; /* Increased text to enable scrolling */
+  padding: 0px 10px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+background-image{
+    width: 25%;
+}
+
+
+article {
+  
+  padding: 10px;
+  width: 100%;
+  background-color: pink;
+  color: white;
+  text-align: center;
+}
+
+h2{
+    color: pink;
+}
+
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+footer {
+  background-color:pink;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+
+
+table, th, td {
+  border: 2px solid white;
+  border-collapse: collapse;
+  padding: 20px;
+}
+th, td {
+  background-color: pink;
+}
+th{
+    color: white;
+}
+ 
+.topnav {
+  overflow: hidden;
+  background-color: lavenderblush;
+  opacity:1.0;
+}
+
+.topnav a {
+  float: left;
+  color: pink;
+  text-align: center;
+  padding: 20px 30px;
+  text-decoration: none;
+  font-size: 15px;
+}
+
+.topnav a:hover {
+  background-color: pink;
+  color: white;
+  transition: all .5s linear;
+}
+
+
+
+</style>
+
+
+<script>
+    function check() {
+        var c=0
+        var q1=document.quiz.question1.value;
+        var q2=document.quiz.question2.value;
+        var q3=document.quiz.question3.value;
+        var q4=document.quiz.question4.value;
+        var q5=document.quiz.question5.value;
+        var q6=document.quiz.question6.value;
+        var q7=document.quiz.question7.value;
+        var q8=document.quiz.question8.value;
+        if (q1=="28") {c++}
+        if (q2=="florida") {c++}
+        if (q3=="11") {c++}
+        if (q4=="thank you, next") {c++}
+        if (q5=="2") {c++}
+        if (q6=="frankie") {c++}
+        if (q7=="1993") {c++}
+        if (q8=="june 26") {c++}
+        
+        document.write(c);
+    }
+</script>
+</head>
+<body>
+<header>ARIANA GRANDE</header>
+
+<div class="topnav">
+    <a  href="index.html">HOME</a>
+    <a href="awards.html">AWARDS</a>
+    <a href="songs.html">SONGS</a>
+    <a href="beauty.html">PERFUMES</a>
+    <a href="quiz.html">QUIZ</a>
+    
+  </div>
+  
+  <article>
+  <p>Here is a short quiz on Ariana Grande to test what you've learned from this website. It will take you to a seperate page for your results, if you want to re-do the quiz, refresh the page.</p>
+  </article>
+
+<form name="quiz" id="quiz">
+    <div>
+        <p>1. How old is Ariana Grande?</p>
+        <p><input type="radio" name="question1" value="25"> A. 25</p>
+        <p><input type="radio" name="question1" value="29"> B. 29</p>
+        <p><input type="radio" name="question1" value="28"> C. 28</p>
+        <p><input type="radio" name="question1" value="26"> D. 25</p>
+    </div>
+    <div>
+        <p>2. Where was Ariana Grande born?</p>
+        <p><input type="radio" name="question2" value="florida"> A. Florida</p>
+        <p><input type="radio" name="question2" value="california"> B. California</p>
+        <p><input type="radio" name="question2" value="new Jersey"> C. New Jersey</p>
+        <p><input type="radio" name="question2" value="new Mexico"> D. New York</p>
+    </div>
+    <div>
+        <p>3. How many perfumes did Ariana Grande make?</p>
+        <p><input type="radio" name="question3" value="10"> A. 10</p>
+        <p><input type="radio" name="question3" value="6"> B. 6</p>
+        <p><input type="radio" name="question3" value="8"> C. 8</p>
+        <p><input type="radio" name="question3" value="11"> D. 11</p>
+    </div>
+    <div>
+        <p>4. What is Ariana Grande's most streamed song on spotify?</p>
+        <p><input type="radio" name="question4" value="thank you, next"> A. thank you, next</p>
+        <p><input type="radio" name="question4" value="7 rings"> B. 7 rings</p>
+        <p><input type="radio" name="question4" value="one last time"> C. one last time</p>
+        <p><input type="radio" name="question4" value="positions"> D. positions</p>
+    </div>
+    <div>
+        <p>5. How many grammy's has Ariana Grande won?</p>
+        <p><input type="radio" name="question5" value="3"> A. 3</p>
+        <p><input type="radio" name="question5" value="1"> B. 1</p>
+        <p><input type="radio" name="question5" value="4"> C. 4</p>
+        <p><input type="radio" name="question5" value="2"> D. 2</p>
+    </div>
+    <div>
+        <p>6. What is Ariana Grande's Half-brother's name?</p>
+        <p><input type="radio" name="question6" value="frank"> A. Frank</p>
+        <p><input type="radio" name="question6" value="fred"> B. Fred</p>
+        <p><input type="radio" name="question6" value="frankie"> C. Frankie</p>
+        <p><input type="radio" name="question6" value="freddie"> D. Freddy</p>
+    </div>
+    <div>
+        <p>7. What year was Ariana Grande born?</p>
+        <p><input type="radio" name="question7" value="1993"> A. 1993</p>
+        <p><input type="radio" name="question7" value="1995"> B. 1995</p>
+        <p><input type="radio" name="question7" value="1996"> C. 1996</p>
+        <p><input type="radio" name="question7" value="1992"> D. 1992</p>
+    </div>
+    <div>
+        <p>8. When is Ariana Grande's birthday?</p>
+        <p><input type="radio" name="question8" value="july 24"> A. July 24</p>
+        <p><input type="radio" name="question8" value="august 10"> B. August 10</p>
+        <p><input type="radio" name="question8" value="june 26"> C. June 26</p>
+        <p><input type="radio" name="question8" value="november 22"> D. November 24</p>
+    </div>
+
+
+
+
+
+    <input type="button" name="button1" value="CHECK ANSWERS" onclick="check()">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</form>
+
+
+
+
+
+
+
+
+
+
+
+
+    </body>
+    </html>

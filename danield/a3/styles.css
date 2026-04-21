@@ -1,0 +1,18 @@
+body {
+	background-color: black;
+	color: lightgrey;
+	font-family: arial;
+}
+
+table, th, td {
+	border: 2px solid blue;
+}
+
+a {
+	color: red;
+}
+
+th, td {
+	text-align: center;
+	padding: 5px;
+}

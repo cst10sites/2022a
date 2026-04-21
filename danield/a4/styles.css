@@ -1,0 +1,39 @@
+body {
+	background-color: black;
+	color: lightgray;
+	font-family: arial;
+}
+
+button.buttonb {
+	background-color: blue;
+	color: white;
+	width: 70px;
+	height: 70px;
+}
+
+button.buttonr {
+	background-color: red;
+	width: 70px;
+	height: 70px;
+}
+
+button.buttong {
+	background-color: green;
+	color: white;
+	width: 70px;
+	height: 70px;
+}
+
+button.buttony {
+	background-color: yellow;
+	width: 70px;
+	height: 70px;
+}
+
+button.buttonstart {
+	padding: 10px 10px;
+}
+
+button.highscore {
+	padding: 10px 10px;
+}

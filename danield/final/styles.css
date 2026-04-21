@@ -1,0 +1,78 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+	margin: 25px 50px;
+	font-family: arial;
+	background-color: dimgray;
+	color: white;
+}
+
+a:link {
+	color: white;
+}
+
+a:visited {
+	color: white;
+}
+
+header {
+	font-size: 35px;
+	text-align: center;
+	background-color: blue;
+	border-radius: 10px;
+}
+
+a:hover {
+	color: red;
+}
+
+a.btn {
+	background-color: DarkBlue;
+	padding: 15px 25px;
+	display: inline-block;
+	border-style: solid;
+	border-color: Gold;
+	border-radius: 25px;
+	text-decoration: none;
+}
+
+table {
+	margin: auto;
+}
+
+table, th, td {
+	border: 1px solid black;
+}
+
+p {
+	padding: 10px;
+}
+
+nav {
+	float: left;
+	width: 50%;
+	color: gold;
+	padding: 25px;
+	text-align: center;
+}
+
+div {
+	background-color: darkgray;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 50%;
+}
+
+
+th {
+	padding: 3px;
+}
+
+td {
+	padding: 5px;
+}

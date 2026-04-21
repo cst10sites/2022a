@@ -1,0 +1,28 @@
+body {
+		background-color: grey;
+		color: white;
+		font-family: Verdana;
+		Margin: 25px 100px;
+}
+
+
+h1,h2 {
+	color: cyan;
+}
+
+a {
+	color: violet;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+th {
+	padding: 5px;
+	text-align: left;
+}
+
+table,th, td {
+	border: 2px solid white;
+}

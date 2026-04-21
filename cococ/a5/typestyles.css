@@ -1,0 +1,88 @@
+header {
+	text-align: center;
+	font-size: 50px;
+	/*background-color: lightblue;*/
+	color: white;
+	background-image: url('https://t3.ftcdn.net/jpg/04/30/17/44/360_F_430174408_Ht4b5fCEQ0kjVtdEc5ROgTnWaEv7RjbY.jpg');
+}
+
+nav {
+	margin: auto;
+	width: 50%;
+	padding: 10px;
+	color:white;
+}
+
+
+a.btn { 
+	background-color: lightslategrey;
+	padding: 15px 25px;
+	display: inline-block;
+	border-style: solid;
+	border-radius: 25px;
+	border-color: lightslategrey;
+	text-decoration: none;
+}
+
+a:link {  
+	color: white;
+ }
+
+a:visited {
+	color:white;
+}
+
+span {
+	color:white;
+	font-size: 15px
+}
+h2 {
+	font-size: 28px;
+	display: inline;
+	margin-left: 180px;
+	
+	color:lightslategrey;
+	
+}
+
+img {
+	display: inline
+}
+
+h3 {
+	margin-left: 250px;
+	margin-right: 600px;
+	font-size: 18px;
+	background-color:lightslategrey;
+	color:white;
+}
+
+.pull-left {float:left;}
+.pull-right {float:right;}
+
+
+p {
+	color:lightslategrey;	
+	}
+
+h1 {
+	text-align:center;
+	color:lightslategrey;
+	font-size: 40px;
+	text-decoration: underline;
+}
+
+
+
+
+.column {
+  float: left;
+  width: 50%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
