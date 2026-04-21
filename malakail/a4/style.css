@@ -1,0 +1,53 @@
+body {
+    font-family: Comic Sans MS;
+    background-color: #D3D3D3;
+	text-align: center;
+}
+
+.Cblue {
+	width: 60px;
+	height: 60px;
+	text-align: center;
+    background-color:blue;
+    color:#d4d4d4;
+}
+.Cred {
+	width: 60px;
+	height: 60px;
+	text-align: center;
+    background-color:red;
+}
+.Cgreen {
+	width: 60px;
+	height: 60px;
+	text-align: center;
+    background-color:green;
+}
+.Cyellow {
+	width: 70px;
+	height: 60px;
+	text-align: center;
+    background-color:yellow;
+}
+.Cstart {
+	width: 80px;
+	height: 60px;
+}
+
+h1 {
+	font-size: 70px;
+    background: rgb(0,0,0);
+    background: repeating-linear-gradient(90deg, rgba(255,0,0,1), rgba(255,165,0,1), rgba(255,255,0,1), rgba(0,255,0,1), rgba(0,219,255,1), rgba(0,0,255,1), rgba(75,0,130,1), rgba(143,0,255,1), rgba(75,0,130,1), rgba(0,0,255,1), rgba(0,219,255,1), rgba(0,255,0,1), rgba(255,255,0,1), rgba(255,165,0,1), rgba(255,0,0,1));
+    animation: gradient-border 6s linear infinite;
+    background-size: 400% 100%;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+@keyframes gradient-border {
+from {
+  background-position: 0 0;
+}
+to {
+  background-position: 100% 0;
+}
+

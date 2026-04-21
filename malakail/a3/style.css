@@ -1,0 +1,31 @@
+body {
+	background-color: white;
+	color: black;
+	font-family: "Comic Sans MS";
+	margin: 100px 50px;
+}
+
+h1 {
+	color: cyan;
+}
+
+a {
+	color: yellow;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+th, td {
+	text-align: left;
+	padding: 5px;
+}
+
+table, th, td {
+  border: 3px solid black;
+}
+
+:active {
+	color: lime;
+}

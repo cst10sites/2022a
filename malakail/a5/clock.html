@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>A Digital Analog Clock</title>
+    <link rel="stylesheet" href="clocks.css" type="text/css" media="all">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="favicon.ico">
+    <script src="clock.js" defer></script>
+    <script src="script.js"></script>
+</head>
+
+<body>
+<h1 style="text-align: center;">This is a clock</h1>
+<div class="topnav" id="myTopnav">
+    <a href="Homepage.html">Homepage</a>
+    <a href="Overview.html">Overview</a>
+    <a href="Failure.html">why did it die?</a>
+    <a href="Crowd Control.html">Crowd Control</a>
+    <a href="clock.html" class="active">When should you play Overwatch?</a>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+
+
+  <table width="100%" cellpadding="5" cellspacing="5" border="0">
+      <tr>
+<td valign="top" align="center">
+<!-- IMAGE ONE GOES HERE-->
+<img src="https://i.ytimg.com/vi/uk4hQZPvOgI/maxresdefault.jpg" style="text-align:center; padding-top: 100px;" width=300; height=300; alt="">
+</td>
+
+<td>
+<!-- THE CLOCK GOES HERE-->
+<main class="main">
+    <div class="clockbox">
+        <svg id="clock" xmlns="http://www.w3.org/2000/svg" width="600" height="600" viewBox="0 0 600 600">
+            <g id="face">
+                <circle class="circle" cx="300" cy="300" r="253.9"/>
+                <path class="hour-marks" d="M300.5 94V61M506 300.5h32M300.5 506v33M94 300.5H60M411.3 107.8l7.9-13.8M493 190.2l13-7.4M492.1 411.4l16.5 9.5M411 492.3l8.9 15.3M189 492.3l-9.2 15.9M107.7 411L93 419.5M107.5 189.3l-17.1-9.9M188.1 108.2l-9-15.6"/>
+                <circle class="mid-circle" cx="300" cy="300" r="16.2"/>
+            </g>
+            <g id="hour">
+                <path class="hour-arm" d="M300.5 298V142"/>
+                <circle class="sizing-box" cx="300" cy="300" r="253.9"/>
+            </g>
+            <g id="minute">
+                <path class="minute-arm" d="M300.5 298V67"/>
+                <circle class="sizing-box" cx="300" cy="300" r="253.9"/>
+            </g>
+            <g id="second">
+                <path class="second-arm" d="M300.5 350V55"/>
+                <circle class="sizing-box" cx="300" cy="300" r="253.9"/>
+            </g>
+        </svg>
+    </div><!-- .clockbox -->
+</main>
+</td>
+
+<td valign="top" align="center">
+<!-- IMAGE THREE GOES HERE-->
+<img src="https://i.redd.it/8uidffl47qy21.jpg" style="text-align:center; padding-top: 100px;" width=300; height=300; alt="">
+</td>
+      </tr>
+  </table>
+  <h2 style="text-align: center; padding-top: -70px;">You can look at this while playing overwatch, and realise how much of your life you have wasted. Do yourself a favor and switch games</h2>
+</body>
+
+</html>
