@@ -1,0 +1,32 @@
+body {
+	background-color: black;
+	color: lightgrey;
+	font-family: serif;
+	margin: px 75px
+}
+
+h1, h2{
+	color: cyan
+}
+
+a{
+	color: yellow
+}
+
+table{
+	border-collapse: collapse;
+	color: cyan;
+}
+
+th, td{
+	padding: 5px;
+}
+
+table, th, td{
+	border: 2px solid rgb(185, 20, 20);
+}
+
+button{
+	background-color: cyan;
+	color: darkblue;
+}

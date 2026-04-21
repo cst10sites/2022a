@@ -1,0 +1,27 @@
+button{
+    border-radius: 5px;
+    box-shadow: navy;
+    border-style: solid;
+    font-size: large;
+    color:black;
+} 
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(238, 227, 255);
+    margin-left: 25px;
+}
+
+p{
+    color: navy;
+    font-style: italic;
+}
+
+button:hover{
+    color: whitesmoke
+}
+
+
+
+
+
