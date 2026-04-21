@@ -1,0 +1,39 @@
+body {
+	background-color: rgb(226, 223, 212);
+	color: rgb(19, 19, 19);
+	font-family: "comic sans ms";
+	margin: 50px 50px;
+}
+
+h1, h2, h3 {
+	color: rgb(255, 0, 85);	
+}
+
+a {
+	color: rgb(53, 43, 204);
+}
+
+table {
+	border-collapse: collapse;
+}
+
+th, td {
+	text-align: left;
+	padding: 5px;
+	
+}
+
+table, th, td {
+	border: 2px solid rgb(0, 0, 0);
+}
+
+:active {
+	color:blueviolet;
+}
+
+
+
+
+
+
+

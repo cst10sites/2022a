@@ -1,0 +1,23 @@
+body{
+    background-color: aquamarine;
+    font-family: sans-serif;
+    margin: 75px 100px;
+}
+table{
+    border-collapse: collapse;
+}
+th, td{
+    padding: 10px;
+}
+table, th, td{
+    border: 2px solid rgb(21, 104, 93);
+}
+span{
+    color: pink;
+}
+tr{
+    background-color: rgb(141, 252, 215);
+}
+p{
+    font-size: large;
+}

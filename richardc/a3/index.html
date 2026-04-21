@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+<meta charset="UTF-8">
+<title>Assignment 3</title>
+<link rel="stylesheet" href="style2.css">
+</head>
+<body>
+<h1>HTML Assignment 3: HTML Table of Definitions</h1>
+<table class="roundedCorners" style="width:90%;">
+
+<!-- head -->
+<tr>
+	<th style="font-size:25px;">Tag</th>
+	<th style="font-size:25px;">Definition</th>
+	<th style="font-size:25px;">Example</th>
+</tr>
+
+<!-- title tag -->
+<tr style="background-color:lightgrey;">
+	<th>&lttitle&gt;&lt/title&gt;</th>
+	<th>Title of document that appears on the browser tab (in &lthead&gt; only)</th>
+	<th>See browser title above "Assignment 3"</th>
+</tr>
+
+<!-- style tag -->
+<tr style="background-color:lightgrey;">
+	<th>&ltstyle&gt &ltstyle&gt</th>
+	<th>This can change the style of a group of text</th>
+	<th><p style="color:blue; font-size:20px;">This text is blue and the font size is 20px.</p>
+</tr>
+
+<!-- image tag -->
+<tr>
+	<th>&ltimg src="link" alt="pic" style="5%"&gt;</th>
+	<th>Image</th>
+	<th><p>This is an image of a hamburger.</p><img src="https://thumbs.dreamstime.com/b/home-made-hamburger-22158597.jpg" alt="hamburger" width="40%" height="35%"></th>
+</tr>
+
+<!-- hyperlink tag -->
+<tr>
+	<th>&lta herf="link"&gt...&lt/a&gt</th>
+	<th>This creates a hyperlink to another website
+	<th>This is a link to <a href="https://www2.gov.bc.ca/gov/content/home">gov.bc.</a></th>
+</tr>
+
+<!-- horizontal line tag -->
+<tr>
+	<th>&lthr&gt</th>
+	<th>Creates a horizontal line on the page</th>
+	<th><hr></th>
+</tr>
+
+<!-- comment tag -->
+<tr>
+	<th>&lt!--…--&gt</th>
+	<th>Comment, it won’t show up on the web page</th>
+	<th><!--This is a comment, it won't show up on the web page.-->***The comment is in the notepad</th>
+</tr>
+
+<!-- h1 text size tag -->
+<tr>
+	<th>&lth1&gt &lt/h1&gt</th>
+	<th>First-level heading large text</th>
+	<th><h1>This is h1 text</h1></th>
+</tr>
+
+<!-- iframe tag -->
+<tr>
+	<th>&ltiframe&gt &lt/iframe&gt</th>
+	<th>iframe is used for embeding external web content onto a webpage</th>
+	<th><p>This is a video from YouTube.<p><iframe width="560" height="315" src="https://www.youtube.com/embed/9YffrCViTVk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></th>
+</tr>
+
+<!-- ordered list tag -->
+<tr>
+	<th>&ltol&gt &ltli&gt &lt/li&gt &lt/ol&gt</th>
+	<th>Ordered list(&ltol&gt &lt/ol&gt) with list items(&ltli&gt &lt/li&gt)</th>
+	<th><p>This is an ordered list<p>
+<ol>
+	<li>Mathematics</li>
+	<li>Computer Studies 10</li>
+	<li>English</li>
+	<li>Physical Education</li>
+</ol>
+	</th>
+</tr>
+
+<!-- unordered list tag -->
+<tr>
+	<th>&ltul&gt &ltli&gt &lt/li&gt &lt/ul&gt</th>
+	<th>Unordered list(&ltul&gt &lt/ul&gt) with list items(&ltli&gt &lt/li&gt).</th>
+	<th><p>This is an unordered list<p>
+<ul>
+	<li>Mathematics</li>
+	<li>Computer Studies</li>
+	<li>English</li>
+	<li>Physical Education</li>
+</ul>
+	</th>
+</tr>
+
+<!-- span tag -->
+<tr>
+	<th>&ltspan&gt &lt/span&gt</th>
+	<th>Give a group of text different styling</th>
+	<th><p>This is a <span style="color: red;">span tag</span>.</p></th>
+</tr>
+
+<!-- button tag -->
+<tr>
+	<th>&ltbutton&gt &lt/button&gt</th>
+	<th>It is used for representing a clickable button.</th>
+	<th><p>This is a button, if you click on it, it will say hello!<p><button style = "height = 200px; width = 200px" type="button" onclick="alert('Hello');"><h3>BUTTON</h3></button></th>
+</tr>
+
+<!-- table tag -->
+<tr>
+    <th>&lttable&gt &lttr&gt &ltth&gt &lt/th&gt &lttd&gt &lt/td&gt &lt/tr&gt &lt/table&gt</th>
+    <th>table(&lttable&gt &lt/table&gt) with table rows(&lttr&gt &lt/tr&gt), table headers(&ltth&gt &lt/th&gt) and table datas(&lttd&gt &lt/td&gt).</th>
+    <th>
+        <table class="roundedCorners">
+            <tr>
+                <th>Period 1</th>
+                <th>Period 2</th>
+                <th>Period 3</th>
+                <th>Period 4</th>
+            </tr>
+            <tr>
+                <td>Mathematics</td>
+                <td>Computer Science</td>
+                <td>English</td>
+                <td>Physical Education</td>
+            </tr>
+        </table>
+    </th>
+</table>
+</body>
+</html>

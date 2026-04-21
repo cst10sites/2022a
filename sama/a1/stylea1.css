@@ -1,0 +1,21 @@
+body {
+    font-size:18px;
+    font-family: sans-serif; 
+    background-color: aquamarine; 
+    margin: 75px 300px;
+    color: black;
+}
+img:hover{
+	border-radius: 8px;
+    transform: scale(1.05);
+	box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.25);
+	transition: box-shadow 0.35s cubic-bezier(0, 0, 0, 0.98), 
+    transform 1s cubic-bezier(0, 0, 0, 0.98);
+} 
+h1{
+    text-decoration: underline;
+}   
+
+
+
+

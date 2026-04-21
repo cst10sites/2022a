@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Assignment 3</title>
+<link rel="stylesheet" href="styles.css">
+<style>
+.styleE {
+	color:#0059ff;
+	font-size: large;
+}
+
+.color {
+	color:crimson
+}
+
+.font{
+	font-family:Impact
+}
+
+</style>
+</head>
+<body>
+<h1>External CSS, iframe and tables</h1>
+<h2>Table</h2>
+<p>Click <a href="index.html">here</a> to return to the main page.</p>
+<p>This is a table.</p>
+<table style="width:100%">
+<tr><!--table row-->
+	<th style="width:33%">Tag</th><!--table headers-->
+	<th style="width:33%">Definition</th>
+	<th style="width:33%">Example</th>
+</tr>
+<tr>
+	<td>&lt;title&gt;&lt;/title&gt;</td><!--table data-->
+	<td>title of document that appears on the browser tab (in header only)</td>
+	<td><img alt="look at the browser tab name" style="width:400px;" src="https://cdn.upload.systems/uploads/x1voYnpt.png"></td>
+</tr>
+<tr>
+	<td>&lt;style&gt;&lt;/style&gt;</td><!--table data-->
+	<td>used to define style information (CSS) in a document</td>
+	<td class="styleE">changing the design of different things in your document</td>
+</tr>
+<tr>
+	<td>&lt;img src="link" alt='pic' style="5%"&gt;</td><!--table data-->
+	<td>adds an image to your page</td>
+	<td><img alt="image example" style="width:400px;" src="https://cdn.upload.systems/uploads/DHxFqkY7.png"></td>
+</tr>
+<tr>
+	<td>&lt;meta charset=""&gt;</td><!--table data-->
+	<td>defines the unicode character set that will be used for text</td>
+	<td><img alt="image example" style="width:400px;" src="https://docs.oracle.com/cd/B19306_01/server.102/b14225/img/nlspg031.gif"></td>
+</tr>
+<tr>
+	<td>&lt;p&gt;&lt;/p&gt;</td><!--table data-->
+	<td>creates a paragraph</td>
+	<td><p>this is a paragraph using &lt;p&gt;&lt;/p&gt;</p></td>
+</tr>
+<tr>
+	<td>&lt;hr&gt;</td><!--table data-->
+	<td>adds a horizontal ruler</td>
+	<td>this is a<hr>horizontal ruler</td>
+</tr>
+<tr>
+	<td>&lt;iframe&gt;&lt;/iframe&gt;</td><!--table data-->
+	<td>embeds an object (usually from another website) into a webpage</td>
+	<td><iframe src="https://discord.com/widget?id=529564200738226186&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
+		<iframe src="https://open.spotify.com/embed/playlist/1yrc5BKiKJpGa34pgg9LAO?utm_source=generator&theme=0" width="400px" height="380" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe></td>
+</tr>
+<tr>
+	<td>&lt;br&gt;</td><!--table data-->
+	<td>line break</td>
+	<td><p>this is an example of a <br> line break</p></td>
+</tr>
+<tr>
+	<td>&lt;span&gt;&lt;/span&gt;</td><!--table data-->
+	<td>inline container which can be used to group elements for styling or assigning classes</td>
+	<td><p>here i am adding <span class="color">color</span> and changing the <span style="font-size:x-large;">size</span>, you can also <span class="font">change the font</span> i'd reccomend only using it for assigning classes to keep code tidy</p></td>
+</tr>
+<tr>
+	<td>&lt;a&gt;&lt;/a&gt;</td><!--table data-->
+	<td>creates hyper links </td>
+	<td><p>with this tag you can turn text into <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">links</a> and <a href="mailto:bandit@is-probably.gay">email addresses</a> it can basically create links to any url you want</p></td>
+</tr>
+<tr>
+	<td>&lt;h[1-6]&gt;&lt;/h[1-6]&gt;</td><!--table data-->
+	<td>creates a header</td>
+	<td><h1>Header1 </h1><h2>Header2 </h2><h3>Header3 </h3><p>etc... lets you pick the size and style of headers for your page</p></td>
+</tr>
+<tr>
+	<td>&lt;ul&gt;&lt;/ul&gt;</td><!--table data-->
+	<td>an unordered list</td>
+	<td><ul>
+		<li>lets you create</li>
+		<li>a bullet point list</li>
+		<li>using &lt;li&gt; to define the list items</li>
+		</ul>
+	</td>
+</tr>
+<tr>
+	<td>&lt;ol&gt;&lt;/ol&gt;</td><!--table data-->
+	<td>an unordered list</td>
+	<td><ol>
+		<li>lets you create</li>
+		<li>a numbered list (or odered list)</li>
+		<li>using &lt;li&gt; to define the list items</li>
+		</ol>
+	</td>
+</tr>
+<tr>
+	<td>&lt;table&gt;&lt;/table&gt;</td><!--table data-->
+	<td>creates a table</td>
+	<td>
+		<table>
+			<tr><!--table row-->
+				<th>Tag</th><!--table headers-->
+				<th>Function</th>
+			</tr>
+			<tr>
+				<td>&lt;table&gt;&lt;/table&gt;</td><!--table data-->
+				<td>opens and closes the table tag</td>
+			</tr>
+			<tr>
+				<td>&lt;tr&gt;&lt;/tr&gt;</td><!--table data-->
+				<td>creates a table row</td>
+			</tr>
+			<tr>
+				<td>&lt;td&gt;&lt;/td&gt;</td><!--table data-->
+				<td>creates a cell to enter data</td>
+			</tr>
+		</table>
+	</td>
+</tr>
+<tr>
+	<td>&lt;!--[comment]--&gt;</td><!--table data-->
+	<td>html comment</td>
+	<td><p>this tag adds a comment which can be used to label your code to make it tidy (comments don't do anything)</p>
+		<img alt="image example" style="width:400px;" src="https://cdn.upload.systems/uploads/f7Bfnvjz.png"></td>
+</tr>
+</table>
+</body>
+</html>

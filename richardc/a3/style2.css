@@ -1,0 +1,38 @@
+body {
+	background-color: white;
+	color: black;
+	margin: 100px 50px;
+	font-family: calibri;
+}
+
+h3 {
+	font-family: time;
+}
+
+table.roundedCorners {
+	border-radius: 13px;
+}
+
+
+th, td {
+	border-radius: 13px;
+	text-align: left;
+	padding: 5px;
+}
+
+table, th, td {
+	border: 2px solid black;
+}
+
+a {
+	color: green;
+}
+
+button { 
+	background-color: red;
+	color: blue;
+	height: 50px;
+	width: 150px; 
+	border-radius: 25%;
+}
+

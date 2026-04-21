@@ -1,0 +1,47 @@
+body {
+	background-color: #4d4d4d;
+    color: #dfdfdf;
+	font-family: "Arial";
+	margin: 10px 10px;
+    text-align: center;
+}
+
+.Cblue {
+    background-color:blue;
+    color:#d4d4d4;
+    border: none;
+    width: 100px;
+    height: 50px;
+    text-align: center;
+}
+.Cred {
+    background-color:red;
+    border: none;
+    width: 100px;
+    height: 50px;
+    text-align: center;
+}
+.Cgreen {
+    background-color:green;
+    border: none;
+    width: 100px;
+    height: 50px;
+    text-align: center;
+}
+.Cyellow {
+    background-color:yellow;
+    border: none;
+    width: 100px;
+    height: 50px;
+    text-align: center;
+}
+.Cstart {
+    background-color: #d4d4d4;
+    border: none;
+    width: 100px;
+    height: 50px;
+    text-align: center;
+}
+hr {
+    border: none;
+}

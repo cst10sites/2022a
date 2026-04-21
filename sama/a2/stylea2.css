@@ -1,0 +1,12 @@
+body{
+    margin: 90px 150px;
+    font-family: sans-serif;
+    background-color: rgb(61, 61, 61);
+    color: whitesmoke; 
+}
+h1{
+    font-size:40px;
+}
+p{
+    font-size:large
+}

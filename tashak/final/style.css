@@ -1,0 +1,111 @@
+ .table1{
+ background-color: white;
+ color: #990000 ;
+ text-align: center;
+width:100%;
+height: 20px;
+
+ }
+
+ body  {
+  background-color: #990000;
+  color: white;
+  font-family: Helvetica;
+ text-align: center;
+font-size: 20px;
+ }
+
+ .navigation ul {
+ list-style-type: none;
+margin: 0;
+ padding: 0;
+overflow: hidden;
+background-color: black;
+ }
+
+ .navigation li {
+float: left;
+
+
+ }
+
+ .navigation li a {
+
+	display: block;
+	color: white;
+	padding: 14px 16px;
+	text-decoration: none;
+ }
+
+h2 {
+color: black;
+text-align: center;
+
+}
+
+.active {
+  background-color: #04AA6D;
+}
+
+
+div.absolute {
+position: absolute;
+bottom: 20px;
+left: 700px;
+text-align: center;
+width: 600px;
+padding: 25px;
+background-color: #990000;
+color: white;
+}
+
+
+table{
+	border-collapse: collapse;
+  float: left;
+
+}
+
+th {
+padding:5px;
+}
+
+table,th{
+border: 2px solid white;
+}
+
+table, th,td{
+border: 2px solid white;
+}
+
+#after_submit {
+visibility: hidden;
+
+}
+.myDiv{
+background-color: #990000;
+}
+
+.div1{
+  float: left;
+}
+
+iframe {
+height: 300px;
+width: 550px;
+border: 0;
+}
+
+.div2{
+float: right;
+}
+
+div.parent {
+text-align: center;
+}
+
+ol {
+display: inline-block;
+text-align: left;
+
+}

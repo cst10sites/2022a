@@ -1,0 +1,43 @@
+body{
+    font-family: sans-serif;
+    background-color: teal;
+    color: rgb(228, 198, 228);
+    margin: 100px 150px
+}
+ h1{
+     font-size: 45px;
+     color: ivory;
+ }
+ h2{
+    font-size: 30px;
+ }
+ p1{
+     font-size: large;
+ }
+ s1{
+    font-family:Impact, 'Arial Narrow Bold', sans-serif;
+    color: azure;
+ }
+ a{
+     color:aquamarine;
+ }
+
+ p2{
+     font-size: larger;
+     color:lightblue;
+ }
+ p3{
+     font-size: 20px;
+     color:rgb(122, 235, 229);
+     font-style: italic;
+     }
+ em2{
+    color: rgb(173, 148, 173);
+ }
+ p4{
+    font-style: oblique; 
+    font-size: 18px;
+ }
+ p5{
+     font-size: large;
+ }

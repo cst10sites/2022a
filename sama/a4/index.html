@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <title>Simon Says</title>
+    <link rel="icon" href="bean.ico"
+</head>
+<body>
+    <h1>Simon Says</h1>
+    <button onclick="updateStopWatch();" style="border-color: rgb(83, 83, 83); color: rgb(56, 56, 56) ; margin-left: 10px; width: 70px ; height: 40px;" id="stop">Start</button><br>
+    <p>Score: <span id="score"></span></p>
+    <p>Time Left: <span id="timeDisplayed"></span></p>
+    <p>Color: <span id="color"></span></p>
+    <br>
+    <button style="margin: 10px;background-color: rgb(66, 66, 252);  width: 100px ; height: 65px;"  onclick="blue()">blue</button>
+    <button style="margin: 10px;background-color: rgb(224, 0, 0); width: 100px ; height: 65px;"  onclick="red()">red</button>
+    <button style="margin: 10px;background-color: rgb(67, 156, 67) ; width: 100px ; height: 65px;"  onclick="green()">green</button>
+    <button style="margin: 10px;background-color: rgb(233, 173, 42); width: 100px ; height: 65px;"  onclick="yellow()">yellow</button>
+    <br>
+    <p>Personal Best:<span id="high"> </span></p>
+    <script src="script.js"></script>
+</body>
+</html>

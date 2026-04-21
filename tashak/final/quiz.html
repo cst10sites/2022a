@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset= "UTF-8">
+<link rel="icon" href="favicon.ico">
+<title> Penny Oleksiak </title>
+<link rel= "stylesheet" href= "style.css">
+<script src="main.js"> </script>
+
+<style>
+ body {
+   margin-top:0;
+margin-left: 75px;
+margin-right: 50px;
+ }
+
+</style>
+</head>
+
+
+<body>
+
+
+  <nav class="navigation">
+  <ul>
+    <li><a href="index.html"> Home </a></li>
+    <li><a href="intro.html"> Introduction </a></li>
+    <li><a href="olympics.html"> Olympics</a></li>
+    <li><a href="history.html"> History and Records  </a></li>
+    <li><a href="quiz.html"> Quiz </a></li>
+
+  </ul>
+  </nav>
+
+
+  <table class="table1">
+    <tr>
+      <td>
+   <img src= "https://www.publicdomainpictures.net/pictures/30000/velka/olympic-rings-on-white.jpg" alt="Olympic Rings" style= "width:70px; height: 50px;" >
+  </td><td>  <h1> Canada's Most Decorated Olympian  </h1>
+  </td><td>  <img src= "https://www.publicdomainpictures.net/pictures/30000/velka/olympic-rings-on-white.jpg" alt= "Olympic Rings" style= "width:70px; height: 50px;">
+  </td> </tr>
+  </table>
+
+
+
+<h2>  Quiz  </h2>
+
+
+<form id= "quiz" name="quiz">
+  <div class="parent">
+<ol>
+  <li>  <p> How many Olympic medals does Penny Oleksiak have?  </p>
+  <p> (your answer should look like 2000 not two-thousand) </p>
+
+<input id= "textbox" type="text" name= "question1"> </li>
+
+
+
+  <li>  <p> Which one of these athletes competed in an Olympic  relay with Penny Oleksiak? </p>
+<input type= "radio" id="mc" name= "question2" value= "Kayla Sanchez">  Kayla Sanchez<br>
+<input type= "radio" id="ac" name= "question2" value= "Simone Manuel">  Simone Manuel <br>
+<input type= "radio" id="bc" name= "question2" value= "Katie Ledecky">  Katie Ledecky <br>
+<input type= "radio" id="dc" name= "question2" value= "Summer McIntosh"> Summer McIntosh  <br> </li>
+
+
+<li>
+<p> What strokes has Penny Oleksiak competed in the Olympic games?   </p>
+<input type= "radio" id="ec" name= "question3" value= "Freestyle and Breaststroke">  Freestyle and Breaststroke <br>
+<input type= "radio" id="fc" name= "question3" value= "Backstroke and Freestyle">  Backstroke and Butterfly <br>
+<input type= "radio" id="gc" name= "question3" value=  "Butterfly and Freestyle"> Butterfly and Freestyle <br>
+</li>
+
+<li>
+<p>  Penny Oleksiak  is in the top </p>
+<input id= "textbox1" type="text" name= "question4">
+<p> most decorated Olympic athletes of all time.  </p> </li>
+
+<li>
+<p> Penny Oleksiak has competed in 3 Olympic games.   </p>
+<input type= "radio" id="hc" name= "question5" value= "True">  True <br>
+<input type= "radio" id="ic" name= "question5" value= "False">  False <br> </li>
+
+<li>
+<p>  What age did Penny Oleksiak start swimming?  </p>
+<input id= "textbox2" type="text" name= "question6"> </li>
+
+<li>
+<p> Penny Oleksiak grew up in an athletic family.   </p>
+<input type= "radio" id="jc" name= "question7" value= "True">  True <br>
+<input type= "radio" id="kc" name= "question7" value= "False">  False <br> </li>
+
+<li>
+<p>  How many Olympic gold medals does Penny Oleksiak have?  </p>
+<input id= "textbox3" type="text" name= "question8"> </li>
+
+
+<li>
+<p> How old is Penny Oleksiak?    </p>
+<input type= "radio" id="lc" name= "question9" value= "29">  29 <br>
+<input type= "radio" id="nc" name= "question9" value= "16">  16 <br>
+<input type= "radio" id="oc" name= "question9" value= "21">  21 <br>
+<input type= "radio" id="pc" name= "question9" value= "31">  31 <br> </li>
+</ol>
+</div>
+<br>
+
+<input id="button" type="button" value= "I'm Finished" onclick= "check();">
+</form>
+
+<br>
+  <div id= "number_correct"> </div>
+
+
+
+</body>
+</html>

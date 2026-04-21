@@ -1,0 +1,14 @@
+body{ 
+background-color: black; 
+color: white;
+margin: 100px 50px;
+font-family: Ariel; 
+text-align: center;
+ font-size: 30px;
+} 
+button{ 
+border-radius: 12px;
+height: 40px;
+width: 100px;
+} 
+
