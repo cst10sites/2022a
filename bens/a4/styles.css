@@ -1,0 +1,10 @@
+body{
+  background-color: brown;
+  font-family: arial;
+  color: red;
+  text-align: center;
+}
+
+button{
+height: 60px;
+width: 70px;

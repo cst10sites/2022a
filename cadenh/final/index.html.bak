@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<link rel="icon" href="rolando.ico">
+<title>Cristiano Rolando Autobiography</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="topnav">
+  <a class="active" href="index.html">Inroduction</a>
+  <a href="page 2.html">Accomplishments and Records</a>
+  <a href="page 3.html">International Carrer</a>
+  <a href="page 4.html">Personal Life and Philanthropy</a>
+  <a href="page 5.html">Quick Quiz</a>
+</div>
+<h1 style="font-family:Arial;">Cristiano Rolando</h1>
+<img src="rolando as a kid pic.jpg" height="150px" width="200px" align="left">
+<p style="font-family:Arial;">Cristiano Ronaldo dos Santos Aveiro was born on the 5th of February 1985 in Funchal, Madeira, Portugal. He is the fourth and youngest child of Maria Dolores dos Santos Viveiros da Aveiro, a cook, and José Dinis Aveiro, a municipal gardener and part-time kit man. His mother revealed that she wanted to abort him due to poverty, his father's alcoholism and having too many children already, but her doctor refused to perform the procedure. Ronaldo grew up in an impoverished Catholic home, sharing a room with all his siblings.</p>
+<br>
+<br>
+<br>
+<h2 style="font-family:Arial;">Early Football Carrer</h2>
+<p style="font-family:Arial;">As a child, Ronaldo played for Andorinha from 1992 to 1995, where his father was the kit man, and later spent two years with Nacional. In 1997, aged 12, he went on a three-day trial with Sporting CP, who signed him for a fee of £1,500. He subsequently moved from Madeira to Alcochete, near Lisbon, to join Sporting's youth academy. By age 14, Ronaldo believed he had the ability to play semi-professionally and agreed with his mother to cease his education to focus entirely on football. While popular with other students at school, he had been expelled after throwing a chair at his teacher, who he said had "disrespected" him. However, one year later, he was diagnosed with a racing heart, a condition that could have forced him to give up playing football. Ronaldo underwent heart surgery where a laser was used to cauterise multiple cardiac pathways into one, altering his resting heart rate. He was discharged from the hospital hours after the procedure and resumed training a few days later. Ronaldo began his international career with Portugal under-15 in 2001. During his international youth career, Ronaldo would represent the under-15, under-17, under-20, under-21 and under-23 national sides, amassing 34 youth caps and scoring 18 goals overall.</p>
+
+<div>
+
+	<div style="vertical-align: top;">
+	<iframe style="vertical-align: top;" width="500" height="400" align="right" src="https://www.youtube.com/embed/pbHOqkpF-dA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	</div>
+
+	<div style="vertical-align: top;">
+	<blockquote class="twitter-tweet" style="width:30%; vertical-align: top;"><p lang="en" dir="ltr">Very happy to become the first football player to score more than 800 official goals. What an amazing and unforgettable run this is becoming… Thank you to all my supporters for always standing by my side. 801 and still counting!🙏🏽👊🏽 <a href="https://t.co/1UqngjqE8V">pic.twitter.com/1UqngjqE8V</a></p>&mdash; Cristiano Ronaldo (@Cristiano) <a href="https://twitter.com/Cristiano/status/1466800707542126595?ref_src=twsrc%5Etfw">December 3, 2021</a>
+	</blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+	</div>
+</div>
+
+
+
+
+</body>
+</html>

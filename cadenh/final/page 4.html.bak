@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<link rel="icon" href="rolando.ico">
+<title>Cristiano Rolando Autobiography</title>
+<link rel="stylesheet" href="style4.css">
+</head>
+<body>
+<div class="topnav">
+ <a href="index.html">Introduction</a>
+  <a href="page 2.html">Accomplishments and Records</a>
+  <a href="page 3.html">International Carrer</a>
+  <a class="active" href="page 4.html">Personal Life and Philanthropy</a>
+  <a href="page 5.html">Quick Quiz</a>
+</div>
+<h1>Personal Life and Philanthropy</h1>
+
+
+ <div id="container"> 
+     <img src="nrm_1419277845-cristiano_ronaldo_statue_thumbs_up.jpg" align="right" height="400px" id="image" /> 
+     
+ </div>
+
+<p align="left">Ronaldo has four children. He first became a father to a son, Cristiano Jr., born on 17 June 2010 in the United States. He stated that he has full custody of the child and would not be publicly revealing the identity of the mother per agreement with her. In January 2015, Ronaldo announced his five-year relationship with Russian model Irina Shayk had ended. Ronaldo then became father to twins, daughter Eva and son Mateo, born on 8 June 2017 in the United States via surrogacy. He is in a relationship with Spanish model Georgina Rodríguez, a former shop assistant, who gave birth to their daughter Alana Martina, on 12 November 2017. In October 2021, Ronaldo announced the family would be expecting a second pair of twins.</p>
+
+<p align="left">Ronaldo has made contributions to various charitable causes throughout his career. Television footage of the 2004 Indian Ocean earthquake and tsunami showed an eight-year-old boy survivor named Martunis wearing a Portuguese football shirt who was stranded for 19 days after his family was killed. Following this, Ronaldo visited Aceh, Indonesia, to raise funds for rehabilitation and reconstruction. After accepting undisclosed damages from a libel case against The Sun newspaper in 2008, Ronaldo donated the damages to a charity in Madeira. In 2009, Ronaldo donated £100,000 to the hospital that saved his mother's life in Madeira following her battle with cancer, so that they could build a cancer centre on the island. In support of the victims of the 2010 Madeira flood, Ronaldo pledged to play in a charity match in Madeira between Primeira Liga club Porto and players from Madeiran-based clubs Marítimo and Nacional.
+In 2012, Ronaldo and his agent paid for specialist treatment for a nine-year-old Canarian boy with apparently terminal cancer. In December 2012, Ronaldo joined FIFA's "11 for Health" programme to raise awareness amongst kids of how to steer clear of conditions including drug addiction, HIV, malaria and obesity. In January 2013, Ronaldo became Save the Children's new Global Artist Ambassador, in which he hopes to help fight child hunger and obesity. In March, Ronaldo agreed to be the ambassador for The Mangrove Care Forum in Indonesia, an organisation aiming to raise awareness of mangrove conservation.
+Ronaldo was named the world's most charitable sportsperson in 2015 after donating £5 million to the relief effort after the earthquake in Nepal which killed over 8,000 people. In June 2016, Ronaldo donated the entirety of his €600,000 Champions League bonus after Real Madrid won the Champions League. In August, Ronaldo launched CR7Selfie, a selfie app for charity to help Save the Children that lets participants take a selfie with him in one of several different outfits and poses.</p>
+
+<blockquote align="center" class="twitter-tweet"><p lang="pt" dir="ltr">Muitos parabéns princesa do papá! Que tenhas um dia feliz meu amor! 🎂🎉🙏🏽❤️ <a href="https://t.co/tLyctccRst">pic.twitter.com/tLyctccRst</a></p>&mdash; Cristiano Ronaldo (@Cristiano) <a href="https://twitter.com/Cristiano/status/1459112205652213772?ref_src=twsrc%5Etfw">November 12, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<h2>Legal Issues</h2>
+
+<p>In July 2017, Ronaldo was charged with fraudulently evading almost €15 million in tax between 2011 and 2014, a claim he denied at the time. In June 2018, Ronaldo was given a two-year suspended jail sentence and fined €18.8 million, later reduced to €16.8 million after reaching a deal with Spanish authorities. The sentence can be served under probation, without any jail time, so long as he does not re-offend.Ronaldo and another man were investigated by the British Crown Prosecution Service after a 2005 rape allegation was brought forward by two women. Within days, the two women withdrew their allegation and Scotland Yard later issued a statement declaring there was not enough evidence for a prosecution.In April 2017, it was reported that Ronaldo was being investigated by the Las Vegas Police Department for an allegation by a woman that he had raped her in 2009. Documents, confirmed by Ronaldo's lawyers, state that Ronaldo paid a woman US$375,000 in a non-disclosure settlement. Ronaldo and his lawyers issued a lengthy statement denying all accusations, describing them as an "intentional defamation campaign" with parts significantly "altered and/or completely fabricated", a claim which Der Spiegel categorically denied. In July 2019, Las Vegas prosecutors said they would not charge Ronaldo over allegations of rape; the statement added: "Based upon a review of information at this time, the allegations of sexual assault against Cristiano Ronaldo cannot be proven beyond a reasonable doubt."The Mirror, citing court documents, reported in 2021 that the woman is seeking £56 million in damages from Ronaldo in a civil lawsuit.</p>
+
+
+
+
+</body>
+</html>

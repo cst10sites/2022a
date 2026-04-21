@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="icon" href="rolando.ico">
+	<title>
+     Cristiano Rolando Autobiography
+    </title>
+<div class="topnav">
+ <a href="index.html">Introduction</a>
+  <a href="page 2.html">Accomplishments and Records</a>
+  <a href="page 3.html">International Carrer</a>
+   <a href="page 4.html">Personal Life and Philanthropy</a>
+  <a class="active" href="quiz.html">Quick Quiz</a>
+ 
+</div>
+
+    <!-- (A) LOAD QUIZ CSS + JS -->
+    <link href="quiz.css" rel="stylesheet">
+    <script src="quiz.js"></script>
+  </head>
+  <body>
+    <!-- (B) QUIZ CONTAINER -->
+    <div id="quizWrap"></div>
+  </body>
+</html>

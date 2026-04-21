@@ -1,0 +1,125 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+.topnav {
+ overflow: hidden;
+ background-color: lightblue;
+ opacity:1.0;
+}
+.img {
+	width: 100%;
+}
+.topnav a {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 20px 30px;
+  text-decoration: none;
+  font-size: 15px;
+}
+h1{ 
+	font-family: Tahoma;
+	font-size: 3em;
+	font-weight: bold;
+	font-style: italic;
+	letter-spacing: 3px;
+	word-spacing: 15px;
+	text-shadow: 3px 3px 5px #333;
+	text-decoration: none;
+	text-transform: lowercase;
+	text-indent: 555px;
+}
+
+.topnav a:hover {
+  background-color: white;
+  color: black;
+  transition: all .25s linear;
+}
+.banner{
+	width: 75%;
+	height: 100vh;
+	background-image:
+	background-size: cover;
+	background-position: center;
+}
+.topbar{
+	width: 85%;
+	margin: auto;
+	padding: 35px 0;
+	display: flex;
+	align-items: center;	
+	justify-content: space-between;
+}
+.topbar ul li{ 
+	list-style: none;
+	display: inline-block;
+	margin: 0 20px;
+	position: relative;
+}
+.topbar ul li a{
+	text-decoration: none;
+	color: #ffffff;
+	text-transform: uppercase;
+}
+.topbar ul li:: after{
+	content: ‘’;
+	height: 3px;
+	width: 100%;
+	background: #009688
+	position: absolute;
+	left: 0;
+	bottom: -10px;
+	transition: 0.5s;
+}
+.topbar ul li:hover::after{
+	width: 100%;
+}
+.content{
+	width: 100%;
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	text-align: center:
+	color: #ffffff;
+}
+.content h1{
+	font-size: 700px;
+	margin-top: 80px:
+}
+.content p{
+	margin: 20px auto;
+	font-weight: 100;
+	line-height: 25px;
+}
+button{
+	width: 200px;
+	padding: 15px 0;
+	text-align: center;
+	margin: 20px 10px;
+	border-radius: 25px;
+	font-weight: bold;
+	border: 2px solid #009688;
+	background: transparent;
+	color: #ffffff;
+	cursor: pointer;
+	position: relative;
+	overflow: hidden;
+}
+span{
+	background: #009688;
+	height: 100%;
+	width: 100%;
+	border-radius: 25px;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	z-index: -1;
+}
+button:hover span{
+	width: 100%;
+}
+button.hover{
+	border: none;
+}
