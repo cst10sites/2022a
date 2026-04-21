@@ -1,0 +1,71 @@
+body{
+    background-color: gold;
+    font-family: Arial;
+}
+
+header{             /* makes header colors */ 
+    background-color: black;
+    font-size: 60;
+    color: gold;
+    padding: 30px;
+
+} 
+/* box wth text in img */ 
+   
+     .container {
+        position: relative; 
+        margin: 0 auto; /* Center it */
+        max-width: 100%;
+        max-height: 100%;
+        text-align:  center;
+      }
+
+
+      
+      .container .content {
+        position: absolute; /* Position the background text */
+        top: 0; /* makes header at top */
+        background: rgb(0, 0, 0); /* Fallback color */
+        background: rgba(0, 0, 0, 0.5); /* Black background with some opacity */
+        color: #f1f1f1; 
+        width: 97.5%; /* Full width */
+        padding: 20px;
+      }
+
+/* button stuff */ 
+
+  button {
+    background-color: black;
+     color: gold; 
+     border:gold;
+    float: left;
+    border-style: solid;
+}
+
+  button:hover{
+    background-color: gold;
+    color: black;
+    transition: 0.3s;
+}
+/* line */
+
+    .hr {
+      border: gold; 
+    }
+/* table */  
+  
+  table, th, td {
+    border: 1px solid white; /* makes border */ 
+    text-align: center;
+    color: white;
+    text-align: center;
+    margin:auto;
+    padding: 30px;
+  }
+  
+  .center {
+    width: 100%;
+  }
+
+  
+  

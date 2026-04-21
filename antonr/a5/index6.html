@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+<title>Quiz</title>
+
+<link rel="stylesheet" href="style.css">
+
+    </head>
+    <body>
+
+         <!-- Header Content -->
+
+    <header style="text-align: center;"><h1>QUIZ :)</h1> <br><br>
+        
+        <!--buttons-->
+                <button style=" width: 100px; height: 60px;" onclick="navigate('index.html')"> Home </button>
+                <button style=" width: 100px; height: 60px;" onclick="navigate('index2.html')">Gallery</button>
+      
+                <button style=" width: 100px; height: 60px;" onclick="navigate('index3.html')"> Flavors Ranked </button>
+                <button style=" width: 100px; height: 60px;" onclick="navigate('index4.html')">Ad Strategies </button>
+                <button style=" width: 100px; height: 60px;" onclick="navigate('index6.html')">Quiz </button>
+                <button style="width: 100px; height: 60px;" onClick="alert('Best Candy')"> M&Ms </button>
+                <p style="color: gold; text-align: right; font-size: 20px;"> By: Anton R</p>
+        
+    
+        </header>
+
+<!--Quiz-->
+
+    <div class="container">
+            <img src="https://www.lolly.com.au/images/thumbs/0063904_mini-mms-in-1kg-bag_510.jpeg" alt="quiz img" style="width:100%; height:100%;">
+    <div class="content">
+        <div class="positioning">
+            
+        <h1>M&M Quiz</h1>
+    <hr>
+            <br>
+            <br><br>
+                <form id="quiz">
+                    <div>
+                        <h3>1) What year where m&ms made</h3>
+                        <p><input type="radio" name="question1" value="Dirty">1941</p>
+                        <p><input type="radio" name="question1" value="Mouse">1960</p>
+                        <p><input type="radio" name="question1" value="Rat">May 29th, 1453</p>
+    
+                    </div>
+                    <div>
+                        <br><br>
+                        <h3>2)What is the best m&m flavour</h3>
+                        <p><input type="radio" name="question2" value="16">Mint</p>
+                        <p><input type="radio" name="question2" value="32">Regurlar</p>
+                        <p><input type="radio" name="question2" value="0">Peanut</p>
+    
+                    </div>
+                    <div>
+                        <br><br>
+                        <h3>3)Where were m&ms made.</h3>
+                        <p><input type="radio" name="question3" value="2010-2011">Andorra</p>
+                        <p><input type="radio" name="question3" value="2009-2010">New Jersey</p>
+                        <p><input type="radio" name="question3" value="2015-2016">New York</p>
+    
+                    </div>
+                    <div>
+                        <br><br>
+                        <h3> 4)What color of bag is the almond m&m </h3>
+                        <p><input type="radio" name="question4" value=""> Yellow</p>
+                        <p><input type="radio" name="question4" value="">Black</p>
+                        <p><input type="radio" name="question4" value="">Blue</p>
+    
+                    </div>
+                    <div>
+                        <br><br>
+                        <h3>True or false: Are m&ms the best candy</h3>
+                        <p><input type="radio" name="question5" value="fur">True</p>
+                        <p><input type="radio" name="question5" value="ear">False</p>
+    
+                    </div>
+                    <br>
+                    <input class="finished" type="button" name="quiz" value="Finished" onClick="check()">
+                    <br><br><br>
+                    <div class="results">
+                        <p> <span id="results"></span></p>
+                        <p><span id="message"> </span></p>
+                    </div>
+                </form> 
+            </div>
+        </div>
+        </div>
+            <br><br><br>
+
+<!--Java script-->
+    <script src="script.js">
+    </script>
+
+
+    </body>
+</html>

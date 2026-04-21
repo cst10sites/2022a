@@ -1,0 +1,25 @@
+body {
+	background-color: lightgrey;
+	color: red;
+	margin: 25px 100px; 
+}
+
+
+hr {
+	
+	color: red ; 
+}
+
+table {
+	
+border-collapse; collpse; 
+}
+
+th, td{
+		padding: 5px ;
+		text-align; left 
+}
+
+table, th, td{
+		border: 2px solid white;
+}
