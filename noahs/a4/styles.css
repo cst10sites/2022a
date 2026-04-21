@@ -1,0 +1,71 @@
+body {
+    background-color: ;
+    background-image: linear-gradient(#000b48, #4c547e);
+    color: #cccdd3;
+    margin: 100px 50px;
+    font-family: Caveat;
+    font-size: 3vh;
+    font-size: 3vw;
+}
+h1 {
+    font-size: 150%;
+}
+.button {
+    background-color: #AF10EA;
+   border: none;
+   color: #0B0404;
+     font-family: ;
+   padding: 10px 20px;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+     border-width: 7px;
+     border-radius: 10px;
+     border-style: solid;
+     border-color: ;
+   margin: 4px 2px;
+     font-size: 3vh;
+     font-size: 3vw;
+     width: 33%;
+     height: 33%;
+     
+
+
+
+}
+.button:hover {                                    
+ 
+
+}
+.buttonred {
+    width: 33%;
+    height: 50%;
+    background-color: #FA0303;
+    border-color: Red;
+
+}
+.buttongreen {
+    width: 33%;
+    height: 50%;
+    background-color: #03FA34;
+    border-color: Green;
+}
+.buttonyellow {
+    width: 33%;
+    height: 50%;
+    background-color: #FAE703;
+    border-color: Yellow;
+}
+.buttonblue {
+    width: 33%;
+    height: 50%;
+    background-color: #03A4FA;
+    border-color: Blue;
+}
+.buttonstart {
+    width: 33%;
+    height: 50%;
+    background-color: #FDFDFD;
+    border-color: White;
+    color: White;
+}

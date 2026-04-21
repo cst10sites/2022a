@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Simon says Deez</title>
+<link rel="stylesheet" href="styles.css">
+<style>
+.ButtonNoah {
+display: Button;
+border:  none;
+padding: 40px 50px;
+cursor: pointer;
+font-size: 25px;
+text-align: center;
+}
+.center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  }
+  .square {
+  height:160px;
+  width: 160px;
+  }
+ h1 {
+  text-align: center;
+}
+body {
+	text-align: center;
+}
+body {background-color: lightpink;}
+
+</style>
+</head>
+<body>
+
+<h1><em>Simon Says<em></h1>
+
+<p id="score"></p>
+<p id="time"></p>
+<p id="simon"></p>
+
+<button onclick="start();" id="mainbtn">Start</button>
+<p>How to play Simon Says<span id="dots">...</span><span id="more"> So Simon Says In order to play this game you must click the start button and then from there Simon will say a color if you get the right color then you gain 3 points if you miss that's minus 1 and so theres 15 seconds and get as many points as you can Goodluck!</span></p>
+<button onclick="myFunction()" id="myBtn">Read more</button>
+
+<br>
+<br>
+  <div class="square">
+  <div class="center">
+   <button onclick="red();" class="square" class="ButtonNoah" style="background-color: Red;"></button>
+<button onclick="yellow();" class="square" class="ButtonNoah" style="background-color: yellow;"></button>
+<button onclick="green();" class="square" class="ButtonNoah" style="background-color: limegreen;"></button>
+<button onclick="blue();" class="square" class="ButtonNoah" style="background-color: cornflowerblue;"></button>
+  </div>
+	</div>
+<script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Baloo+Bhaijaan+2&family=Bebas+Neue&family=Fredoka+One&family=Monoton&display=swap');
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgba(2, 15, 15, 0.925);
+  overflow-x: hidden;
+  padding-top: 60px;
+  transition: 0.5s;
+  color: #000000;
+  font-family: "Bebas Neue", cursive;
+  transition: 600ms;
+  transition-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+body {
+
+
+
+}
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #2e9792;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #ffffff;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+#main {
+  transition: margin-left 0.5s;
+  padding: 20px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {
+    padding-top: 15px;
+  }
+  .sidenav a {
+    font-size: 18px;
+  }
+}
+
+#Homepage {
+  background-image: url("/FINAL/images/shutterstock_682265785_4.2e16d0ba.fill-1600x775.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  z-index: 5;
+}
+
+.button {
+  color: white;
+  font-size: 3vw;
+}
+
+section {
+  position: relative;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+  font-family: "Baloo Bhaijaan 2", cursive;
+}
+section::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 80vw;
+  height: 35vh;
+  background: #c7c4c43b;
+  border-radius: 20%;
+  transform-origin: bottom;
+  transform: translateX(-50%) scale(3);
+}
+section .content {
+  position: relative;
+  z-index: 0;
+  max-width: 1000px;
+  text-align: center;
+  font-size: larger;
+}
+
+h1{
+  font-family: 'Carter One', cursive;
+  text-align: center;
+  font-size: 65px;
+  color: rgba(255, 255, 255, 0.911);
+}
+
+h2{
+  font-size: 30px;
+  font-family: 'Audiowide', cursive;
+  color: rgba(255, 255, 255, 0.911);
+}
+

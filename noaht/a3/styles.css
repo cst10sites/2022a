@@ -1,0 +1,28 @@
+body {
+	background-color: plum;
+	color: lightgrey;
+	font-family: Verdana
+	margin: 25px 100;
+}
+h1, h2 {
+	color: cyan;
+}
+a {
+	color: yellow;
+}
+
+table {
+	border-collapse; collapse;
+}
+
+th, td{
+	padding: 5px;
+	/* text-allign: left; */
+}
+
+
+table, th, td {
+	
+	border: 2px solid white;
+
+}	

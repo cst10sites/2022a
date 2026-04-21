@@ -1,0 +1,107 @@
+<DOCTYPE Html>
+<html>
+<head>
+<h1> Assignment 3 </h1>
+
+<table class="default">
+	<tr>
+		<th> Tag </th>
+		<th> Definition </th>
+		<th> Example </th>
+</tr>
+
+<tr>
+	<td> <p>Header 1</p>
+	<td> Size of header script, 1 is the largest </td>
+	<td> <h1>Header</h1> </td>
+</tr>
+
+<tr>
+	<td><p>Table of definitions</p></td>
+	<td>Indicates paragraph content in html</td>
+	<td>Paragraph</td>
+</tr>
+
+<tr>
+	<td><p>body</p></td>
+	<td>What the content is from your html page</td>
+	<td><body>The content</body></td>
+</tr>
+
+<tr>
+	<td><p><.a href"...">Statements<./a></p></td>
+	<td>Used to make a list of items</td>
+	<td><a href"www.facebook.com/>Computer Science 9</a></td>
+</tr>
+
+<tr>
+	<td><p><.li>List</.li></p></td>
+	<td>Used to make a list of items</td>
+	<td><li>Assignment 1</li>
+	<li>Assignment 2</li></td>
+</tr>
+
+<tr>
+	<td><p><.marquee> scrolling statements...</.marquee></p></td>
+	<td>Used to scroll text content or image content</td>
+	<td><marquee bgcolor="#cccccc"loop="1"scrooamount="2"width="100%"></td>
+</tr>
+
+<tr>
+	<td><p><.table>Statements...</.table></p></td>
+	<td>Used to make a table in html doc</td>
+	<td><table border="2" cellpadding="1" cellspacing="1"width="100%">
+	<tr><td>Column 1</td>
+	<td>Column 2</td></tr></table></td>
+</tr>
+
+<tr>
+	<td><p><.option>Statements...</.option></p></td>
+	<td>Used to select an option from a drop-down list</td>
+	<td><form method=post action="/facebookfriend/example.cgi">
+	<center>Select an option:<select>
+	<option>option 1</option>
+	<option selected>option 2</option>
+	<option>option 3</option></form></td>
+</tr>
+
+<tr>
+	<td><p><.input></.input></p></td>
+	<td>Used to choose only one option from the given options</td>
+	<td><form method=post action="/Duolingo/example.cgi" Select an option:<br>
+	<input type="radio" name="option">Option 1
+	<input type="radio" name="option" checked>Option 2
+	<input type="radio" name="option"> Option 3 </form></td>
+</tr>
+
+<tr>
+	<td><p><.cite></.cite></p></td>
+	<td>Refers to an article, a book, a video, etc.</td>
+	<td><p>This is a cool song <cite>Spotify playlist</cite></p></td>
+</tr>
+
+<tr>
+	<td><p> <.time></.time></p></td>
+	<td> Used to indicate machine readable date and time information with the content </td>
+	<td> <p> my mom was born  in 1969,
+<time> datetime=”1969-09-17 23:00”> September 17th, 1969</time>.</p> </p>
+</tr>
+
+<tr>
+	<td> <p> <.abbr> and <.dfn> </p></td>
+	<td> Used to introduce an acronym or abbreviation</td>
+	<td> <p> The <dfn><abbr  title=”Thank god its friday”>TGIF </abbr> </dfn> is a common saying for the end of the school week </p> </td>
+	</tr>
+
+	
+
+
+
+
+
+
+
+
+
+</html>
+</head>

@@ -1,0 +1,75 @@
+body {
+	background-color: black;
+	font-family: arial;
+	color: white;
+}
+
+#title {
+	text-align: center;
+}
+
+#runatthem {
+	padding: 5px;
+	text-align: center;
+	background-color: red;
+}
+
+#runaway {
+	padding: 5px;
+	text-align: center;
+	background-color: blue;
+}
+
+#second1 {
+	background-color: red;
+	text-align: center;
+	padding: 5px;
+}
+
+#second2 {
+	background-color: blue;
+	text-align: center;
+	padding: 5px;
+}
+
+#third1 {
+	background-color: red;
+	text-align: center;
+	padding: 5px;
+}
+
+#third2 {
+	background-color: blue;
+	text-align: center;
+	padding: 5px;
+}
+
+footer {
+  padding: 10px;
+  text-align: center;
+  color: Red;
+}
+
+#back {
+	color: Darkred;
+	text-align: center;
+	width: 100%;
+	background-color: lightgray;
+	padding: 10px;
+}
+
+#intro {
+	text-align: center;
+}
+
+#fourth3 {
+	padding: 5px;
+	text-align: center;
+	background-color: yellow;
+}
+
+#fourth4 {
+	padding: 5px;
+	text-align: center;
+	background-color: green;
+}

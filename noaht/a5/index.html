@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html>
+<title>Guide to Deez Nuts</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata">
+<style>
+body, html {
+  height: 100%;
+  font-family: "Inconsolata", sans-serif;
+}
+
+.bgimg {
+  background-position: center;
+  background-size: cover;
+  background-image: url("https://tricycle.org/wp-content/uploads/2019/04/buddhism-in-vancouver.jpg");
+  min-height: 75%;
+}
+
+.menu {
+  display: none;
+}
+#gallery {
+   line-height:0;
+   -webkit-column-count:5; /* split it into 5 columns */
+   -webkit-column-gap:5px; /* give it a 5px gap between columns */
+   -moz-column-count:5;
+   -moz-column-gap:5px;
+   column-count:5;
+   column-gap:5px;
+}
+#gallery img {
+   width: 100% !important;
+   height: auto !important;
+   margin-bottom:5px; /* to match column gap */
+}
+@media (max-width: 1200px) {
+   #gallery {
+    -moz-column-count:    4;
+    -webkit-column-count: 4;
+    column-count:         4;
+   }
+}
+@media (max-width: 1000px) {
+   #gallery {
+    -moz-column-count:    3;
+    -webkit-column-count: 3;
+    column-count:         3;
+   }
+}
+@media (max-width: 800px) {
+   #gallery {
+    -moz-column-count:    2;
+    -webkit-column-count: 2;
+    column-count:         2;
+   }
+}
+@media (max-width: 400px) {
+   #gallery {
+    -moz-column-count:    1;
+    -webkit-column-count: 1;
+    column-count:         1;
+   }
+}
+h1 {
+  text-align: center;
+}
+</style>
+<body onload=display_ct();>
+
+<!-- Links (sit on top) -->
+<div class="w3-top">
+  <div class="w3-row w3-padding w3-black">
+    <div class="w3-col s3">
+      <a href="#" class="w3-button w3-block w3-black">HOME</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="#about" class="w3-button w3-block w3-black">ABOUT</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="#what to do" class="w3-button w3-block w3-black">WHAT TO DO</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="#magpea" class="w3-button w3-block w3-black">GALLERY</a>
+    </div>
+  </div>
+</div>
+
+<!-- Header with image -->
+<header class="bgimg w3-display-container w3-grayscale-min" id="home">
+  <div class="w3-display-bottomleft w3-center w3-padding-large w3-hide-small">
+    <span class="w3-tag">Made by: Noah Tam</span>
+  </div>
+  <div class="w3-display-middle w3-center">
+    <span class="w3-text-white" style="font-size:90px">Guide to<br>Vancouver</span>
+  </div>
+  <div class="w3-display-bottomright w3-center w3-padding-large">
+    <span class="w3-text-white">Dec 10 2021</span>
+  </div>
+</header>
+
+<!-- Add a background color and large text to the whole page -->
+<div class="w3-sand  w3-large">
+
+<!-- About Container -->
+<div class="w3-container" id="about">
+  <div class="w3-content" style="max-width:700px">
+    <h5 class="w3-center w3-padding-64"><span class="w3-tag w3-wide">ABOUT VANCOUVER</span></h5>
+    <p>Vancouver, a bustling west coast seaport in British Columbia, is among Canada’s densest, most ethnically diverse cities.
+	A popular filming location, it’s surrounded by mountains, and also has thriving art, theatre and music scenes, because of its natural beauty, the city is set up for outdoor adventurers, whether cruising the streets of one of the largest Chinatowns in the world, riding bikes along the city's seawall, 
+	or hiking in nearby woodlands for some of the freshest air on earth.</p>
+    <p></p>
+    <div class="w3-panel w3-leftbar w3-light-grey">
+      <p><i>"Vancouver was recently ranked as the third most “livable place in the world” for its high standard of living and quality of life"</i></p>
+      <p></p>
+    </div>
+    <img src="https://d36tnp772eyphs.cloudfront.net/blogs/1/2019/04/Shoreline-at-Stanley-Park-Vancouver.jpg" style="width:100%;max-width:1000px" class="w3-margin-top">
+     <h5 class="w3-center w3-padding-64"><span class="w3-tag w3-wide">THINGS TO KNOW</span></h5>
+	 <p>As far as the geography of the city, Vancouver is broken up into neighborhoods. Popular hoods include the Downtown Centre, which is in the middle of the city; Gastown, which is known as the historic quarter filled with cobblestoned streets and trendy restaurants; Kitsilano for the beach and water enthusiasts; Yaletown for high-end shopping and eating; Chinatown for great eats and sites; and the West End, which leads outdoor lovers to the expansive Stanley Park. 
+	 Lastly, Vancouver is considered one of the safest cities in the world. But like all major metropolises, mind your belongings — especially in the highest touristy areas of the city.
+<br>
+<br>
+<b>Currency</b>: Canadian Dollar – nicknamed the "loonie." 
+<br>
+<b>Language</b>: English
+<br>
+<b>Calling Code</b>: +1 604
+<br>
+<b>Capital City</b>: Victoria (capital of British Columbia)
+<br>
+ </p>
+ 
+
+    <h5 class="w3-center w3-padding-64"><span class="w3-tag w3-wide">CURRENT TIME AND DATE</span></h5>
+ <div class="w3-panel w3-leftbar w3-light-grey">
+      <p><span id='ct' ></span></p>
+    </div>
+	 <p>There really aren't any bad times to come to Vancouver, but because it's a northern city, there are reasons for every season. The summer months are where the most tourists and the longest daylight hours, 
+	 but the winter which is somewhat mild is the least crowded time of year and has sprouting trees and flowers as early as February. 
+	 Keep in mind that the rainiest months are from November to March, which leaves the month of September as the most idyllic time with changing leaves, cooling temps, and dry skies to get outside while it's still warm!.</p>
+  </div>
+</div>
+<br>
+<!-- About Container -->
+<div class="w3-container" id="about">
+  <div class="w3-content" style="max-width:700px">
+    <h5 class="w3-center w3-padding-64"><span class="w3-tag w3-wide">HOW TO GET AROUND</span></h5>
+    <p><b>Trains</b>: Vancouver SkyTrain is one of the most-efficient means of getting around the city. There are three lines: the Expo Line with four downtown stations, including Chinatown and the Waterfront; the Canada Line, which can take you to and from the airport, in addition to Vancouver City Centre and Yaletown; and the Millennium Line that links with the Westcoast Express commuter train. Depending on where you're going, fares run from $1.95 to $5.75.
+<br>
+<br>
+<b>Buses</b>: Vancouver has an extensive bus system that typically runs from 5am to 1am with stops in every major neighborhood and beyond. Vancouver's TransLink website has a simple plug and play that can help you get to wherever you need to go and includes fare prices.
+<br>
+<br>
+<b>Taxis</b>: If you plan on taking a taxi from the airport, the fares will change depending on the zone of your destination. Airport rates range from $20-$40. All taxis are regulated in the city and run on meters.
+<br>
+<br>
+<b>Ferries</b>: Connecting downtown Vancouver with the North Shore is the SeaBus, a passenger-only ferry that departs every 15 minutes during the day and every 30 minutes at night. SeaBus fares are similar to SkyTrain fares.
+<br>
+<br>
+<b>Car service</b>: When you arrive at the Vancouver International Airport, you have a bevy of transportation options. One of the most comfortable rides is hailing a luxury vehicle to whisk you into the city in style. There are officially-licensed limousine services from the airport that do not require any advanced bookings.</p>
+   <img src="https://2.bp.blogspot.com/-P4xMrLOz3x8/WBnqzpIjy4I/AAAAAAAAFWM/crFB63McmvIBynsI5kNp12hKMZs1ImlVACLcB/s1600/Phase%2B1%2BMap.png" style="width:100%;max-width:1000px" class="w3-margin-top">
+    
+  </div>
+</div>
+
+<div class="w3-container" id="what to do">
+  <div class="w3-content" style="max-width:700px">
+<h5 class="w3-center w3-padding-64"><span class="w3-tag w3-wide">THINGS TO DO</span></h5>
+
+<p><b>CAPILANO SUSPENSION BRIDEGE</b>: The Capilano Suspension Bridge is a 450-foot-long, 230-foot-high bridge that crosses the Capilano River and has been freaking out acrophobes since 1889. The bridge is also part of an expansive park that traipses tourists through bridges and walkways among the coastal rainforest.  
+<br>
+<br>
+<b>GROUSE MOUNTAIN</b>: 1,200-metre mountain offering activities such as skiing & hiking plus sweeping views of Vancouver.
+<br>
+<br>
+<b>STANLEY PARK</b>: Vancouver's largest play area, Stanley Park is a massive green space on the northwest side of the city that is home to Vancouver's famous Seawall, the Vancouver Aquarium, multiple beaches, and dozens of walking and biking trails. The 400-hectare park is a local's favorite and includes multiple dining outlets, swimming pools, ice rinks, golf courses, and more.
+<br>
+<br>
+<b>VANCOUVER ART GALLERY</b>: One of the largest museums in all of Canada, the Vancouver Art Gallery was first established in 1931 and features art from around the world with an emphasis on First Nations and Canadian art. Past exhibits include everything from Picasso and Monet to Murakami and anime.
+<br>
+<br>
+<b>GRANVILLE ISLAND</b>: home to a public market, food shops, restaurants, artist studios and galleries, shopping and inviting green space. 
+<br>
+<br>
+<b>VANCOUVER WHALE WATCH</b>: British Columbia has a wealth of marine life including orcas, humpbacks, seals, dolphins, and more. A conservation-minded whale watch tour, like Vancouver Whale Watch, offers an up-close look at the stunning creatures and an educational experience. 
+</P>
+   <img src="https://media.tacdn.com/media/attractions-splice-spp-674x446/0b/39/7e/9b.jpg" style="width:100%;max-width:1000px" class="w3-margin-top">
+     </div>
+</div>
+
+<!-- Hotels and restau Container -->
+<div class="w3-container" id="about">
+  <div class="w3-content" style="max-width:700px">
+ 
+    <h5 class="w3-center w3-padding-48"><span class="w3-tag w3-wide">HOTELS + RESTAURANTS</span></h5>
+  
+    <div class="w3-row w3-center w3-card w3-padding">
+      <a href="javascript:void(0)" onclick="openMenu(event, 'Eat');" id="myLink">
+        <div class="w3-col s6 tablink">HOTELS</div>
+      </a>
+      <a href="javascript:void(0)" onclick="openMenu(event, 'Drinks');">
+        <div class="w3-col s6 tablink">RESTAURANTS</div>
+      </a>
+    </div>
+
+    <div id="Eat" class="w3-container menu w3-padding-48 w3-card">
+      <h5>Fairmont Hotel Vancouver</h5>
+      <p class="w3-text-grey">
+	Address: 900 W Georgia St, Vancouver, BC V6C 2W6, Canada
+	<br>
+	Phone: +1 604-684-3131
+	<br>
+	<a href="https://www.fairmont.com/hotel-vancouver/">Website</a>
+	</p><br>
+    
+      <h5>Shangri-La Hotel Vancouver</h5>
+      <p class="w3-text-grey">
+	Address: 1128 W Georgia St, Vancouver, BC V6E 0A8, Canada
+	<br>
+	Phone: +1 604-689-1120
+	<br>
+	<a href="https://www.shangri-la.com/vancouver/shangrila/">Website</a></p>
+	<br>
+	</p>
+      <h5>Hotel Belmont Vancouver </h5>
+      <p class="w3-text-grey">
+	Address: 654 Nelson St, Vancouver, BC V6B 6K4, Canada
+	<br>
+	Phone: +1 604-605-4333
+	<br>
+	<a href="https://www.hotelbelmont.ca/">Website</a>
+	</p><br>
+    
+      <h5>Rose Wood Hotel Georgia</h5>
+      <p class="w3-text-grey">	
+	Address:801 West Georgia Street Vancouver, British Columbia V6C 1P7
+	<br>
+	Phone: +1 604 682 5566 
+	<br>
+	<a href="https://www.rosewoodhotels.com/en/hotel-georgia-vancouver">Website</a>
+	</p><br>
+    
+      <h5>Wedgewood Hotel</h5>
+      <p class="w3-text-grey">
+	  Address:845 Hornby St, Vancouver
+	  <br>
+	  Phone:604-689-7777
+	  <br>
+	  <a href="https://www.wedgewoodhotel.com/">Website</a>
+	  </p>
+    </div>
+
+    <div id="Drinks" class="w3-container menu w3-padding-48 w3-card">
+	<img src="https://c2.staticflickr.com/6/5082/5212529756_6634bc2764_b.jpg" style="float:right; margin:0px 0px 15px 15px; cursor:pointer; cursor:hand; border:0" width="250" height="150" alt="egg" />
+      <h5>Breakfast</h5>
+	 <p class="w3-text-grey">
+1) Red Wagon <br> 2) Yolks <br> 3) Jam Cafe <br> 4) Red Umbrella Cafe <br> 5) Medina Cafe
+	</p><br>
+	  "<img src="https://i.pinimg.com/originals/e1/ee/00/e1ee00ffb09f6e27021d532a4180960a.jpg" style="float:right; margin:0px 0px 15px 15px; cursor:pointer; cursor:hand; border:0" width="250" height="150" alt="egg" />" 
+	<h5>Lunch</h5>
+      <p class="w3-text-grey">
+1) Western Lake Chinese seafood <br> 2) The Old Spaghetti Factory <br>3) Miku<br> 4) RAILTOWN CAFE<br> 5) TURF
+	</p><br>
+	 "<img src="http://flyerca.com/wp-content/uploads/2018/08/blog_2-13.jpg" style="float:right; margin:0px 0px 15px 15px; cursor:pointer; cursor:hand; border:0" width="250" height="150" alt="egg" 
+	<h5>Dinner</h5>
+      <p class="w3-text-grey">
+1) Au Comptoir <br>  2) Sashimiya <br>  3) The Keg <br>  4) East Van Roasters
+ <br> 5) St. Lawrence
+	</p><br> 
+	"<img src="https://trueconfections.ca/wp-content/uploads/2021/04/CHOCOLATE-CARAMEL-cheesecake-1024x1024.jpg" style="float:right; margin:0px 0px 15px 15px; cursor:pointer; cursor:hand; border:0" width="250" height="150" alt="egg" 
+	<h5>Desert</h5>
+      <p class="w3-text-grey">
+	  1) True Confections <br> 2) Bella Gelateria <br> 3) Rain or Shine <br> 4) Beaucoup Bakery <br> 5) ON Yogurt
+
+	</p><br>
+ 
+ 
+    
+
+
+      
+    </div>  
+  </div>
+</div>
+
+<h5 class="w3-center w3-padding-64"><span class="w3-tag w3-wide">Image Gallery</span></h5>
+<div id="gallery" id="magpea"> 
+  
+   <img src="https://cdn.theculturetrip.com/wp-content/uploads/2017/04/22939559774_2afec860e1_b-1-1024x576.jpg">
+   <img src="https://fthmb.tqn.com/LLUBEVBqMkQLN8FPN7uM36Gf0aQ=/1800x1202/filters:fill(auto,1)/Science-World-exterior-day--56a9bb173df78cf772a9ff59.jpg">
+   <img src="https://images.dailyhive.com/vancitybuzz/uploads/2015/07/shutterstock_116018224.jpg">
+   <img src="https://www.planetware.com/photos-large/CDN/canada-vancouver-queen-elizabeth-park.jpg">
+   <img src="https://www.lhermitagevancouver.com/wp-content/uploads/2018/07/shutterstock_158669993.jpg">
+   <img src="https://images.dailyhive.com/vancitybuzz/uploads/2015/07/shutterstock_199939604-900x600.jpg">
+   <img src="https://images.dailyhive.com/20191105130113/fiu6BG1A.jpeg">
+   <img src="http://www.planetware.com/photos-large/CDN/canada-vancouver-canada-place.jpg">
+   <img src="https://c1.staticflickr.com/5/4480/37056704893_395f187ca4_b.jpg">
+   <img src="https://www.vancouverattractions.com/files/File/myGalleryImages/gallery_34/image_547/large_WEB_IMG_1170.jpg">
+   <img src="https://www.vancouverplanner.com/wp-content/uploads/2020/04/grouse-mountain-2.jpeg">
+   <img src="https://res-2.cloudinary.com/simpleview/image/upload/c_fill,f_auto,h_1110,q_75,w_1920/v1/clients/vancouverbc/beaches_e5e4997c-1ad5-4463-b6a6-0b87279281dc.jpg">
+   <img src="http://modernmixvancouver.com/wp-content/uploads/2014/07/vancouver-aquarium-entrance2.png">
+   <img src="http://www.cravecanada.com/wp-content/uploads/2008/08/vancouver-aquarium-killer-whale.jpg">
+   <img src="https://cdn.watercanada.net/wp-content/uploads/2016/11/22165048/VanAquarium.jpg">
+   <img src="https://heroesofadventure.com/wp-content/uploads/2018/02/Screen-Shot-2016-11-19-at-05.22.14-2.jpg">
+   <img src="https://www.lhermitagevancouver.com/wp-content/uploads/2020/03/Grandville-dock.jpg">
+   <img src="https://img.xcitefun.net/users/2014/07/359462,xcitefun-capilano-suspension-bridge-4.jpg">
+   <img src="https://i1.wp.com/www.ourhomehas6wheels.com/wp-content/uploads/2017/04/China-Town-Spring-HDR.jpeg">
+   <img src="https://images.fineartamerica.com/images/artworkimages/mediumlarge/1/chinatown-street-market-in-vancouver-bc-viktor-birkus.jpg">
+   <img src="https://odis.homeaway.com/odis/destination/6cc79a93-caec-4a68-86fc-078c07a9f38c.hw5.jpg">
+   <img src="https://i.pinimg.com/originals/ac/d1/02/acd10227dfb671230652f79b80cbda20.jpg">
+   <img src="https://i.pinimg.com/originals/63/60/e4/6360e4565fccddcf7a28590ce8a646a7.jpg">
+   <img src="https://www.hellovancity.com/wp-content/uploads/2014/01/Vancouver-from-above.jpg">
+     
+   <img src="https://eflanguagesblog.s3.eu-west-1.amazonaws.com/wp-content/uploads/2021/01/13125912/things_to_know_before_moving_to_vancouver_hero.jpg">
+   <img src="https://upload.wikimedia.org/wikipedia/commons/6/6d/8185_HDR_2012-07-16_Gastown_HDR_04_2012-07-16_Gastown_HDR.jpg">
+	<img src="https://www.vmcdn.ca/f/files/via/images/vancouver-city-snow.jpg"> 
+	<img src="https://www.vmcdn.ca/f/files/via/images/vancouver-snow.jpg"> 
+	<img src="https://upload.wikimedia.org/wikipedia/commons/b/b1/Downtown_Eastside_dusk_view_2018.jpg"> 
+	<img src="https://www.vmcdn.ca/f/files/via/images/city-images/kitsilano_beach_getty.jpg"> 
+	<img src="https://a.cdn-hotels.com/gdcs/production77/d729/a937bb70-c31d-11e8-87bb-0242ac11000d.jpg"> 
+    <img src="https://eflanguagesblog.s3.eu-west-1.amazonaws.com/wp-content/uploads/2021/01/13125912/things_to_know_before_moving_to_vancouver_hero.jpg">
+	<img src="https://images.dailyhive.com/20200706115711/shutterstock_759684430.jpg">
+	 <img src="https://sportshub.cbsistatic.com/i/r/2021/04/03/936e929f-775a-4d5e-89de-971ac8675207/thumbnail/640x360/df1b43222f4b967c8ac2bc9576d1803d/gettyimages-1231369101.jpg">
+	 <img src="data:image/jpeg;base64,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">
+	 <img src="">
+	 <img src="">
+	 <img src="">
+	 <img src="">
+	 <img src="">
+	 <img src="">
+	 <img src="">
+	 <img src="">
+	 <img src="">
+	 
+	
+  </div>
+
+
+
+<!-- End page content -->
+</div>
+
+<!-- Footer -->
+<footer class="w3-center w3-light-grey w3-padding-48 w3-large">
+  <p>Noah <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green">eats deez</a></p>
+</footer>
+
+<script>
+// Tabbed Menu
+function openMenu(evt, menuName) {
+  var i, x, tablinks;
+  x = document.getElementsByClassName("menu");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablink");
+  for (i = 0; i < x.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" w3-dark-grey", "");
+  }
+  document.getElementById(menuName).style.display = "block";
+  evt.currentTarget.firstElementChild.className += " w3-dark-grey";
+}
+document.getElementById("myLink").click();
+
+function display_c(){
+var refresh=1000; // Refresh rate in milli seconds
+mytime=setTimeout('display_ct()',refresh)
+}
+
+function display_ct() {
+var x = new Date()
+document.getElementById('ct').innerHTML = x;
+display_c();
+ }
+</script>
+
+</body>
+</html>

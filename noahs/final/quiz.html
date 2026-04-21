@@ -1,0 +1,71 @@
+<!DOCTYPE Html>
+<html>
+<head>
+<div id="mySidenav" class="sidenav">
+      
+
+
+</head>
+<body>
+<b>Q1. Where can the stone fish be found?<Br></Br></b>
+
+
+<Input type= "radio" Name= "question1" 	id="correct1" >Oceans Indo Pacific to Africa.<br>
+<Input type= "radio" Name= "question1" >Atlanic ocean<br>
+<Input type= "radio" Name= "question1" >Big ponds<br>
+<Input type= "radio" Name= "question1" >Pacific ocean<br>
+
+<b>Q2. What does it mean when blue rings form on the blue-ringed octopus?<br></br></b>
+
+<Input type= "radio" Name= "question2" >Nothing<br>
+<Input type= "radio" Name= "question2" id="correct2" >It is getting ready to produce venom<br>
+<Input type= "radio" Name= "question2" >It is getting ready to swim really fast<br>
+<Input type= "radio" Name= "question2" >It is going to shoot water out of its mouth<br>
+
+<b>Q3. How many eggs can a female lion fish lay every year?<br></br></b>
+<Input type= "radio" Name= "question3" id="correct3" >2 million <br>
+<Input type= "radio" Name= "question3" >1 egg<br>
+<Input type= "radio" Name= "question3" >They dont lay eggs IDIOT<br>
+<Input type= "radio" Name= "question3" >69 eggs<br>
+
+<b>Q4. If you come in close encounter with a stone fish on shore what should you do with your feet?<br></br></b>
+<Input type= "radio" Name= "question4" >Step on it!<br>
+<Input type= "radio" Name= "question4" id="correct4" >Shuffle your feet <br>
+<Input type= "radio" Name= "question4" >Stomp very agressively <br>
+<Input type= "radio" Name= "question4" >Stand there<br>
+
+<b>Final question. What is the best way to get rid of ANY venom in your body from a marine creature?<br></br></b>
+<Input type= "radio" Name= "question5" >Leave it in your body and hope it goes away<br>
+<Input type= "radio" Name= "question5" id="correct5" >Apply warm water to soak up the venom<br></b>
+<Input type= "radio" Name= "question5" >Put more of that venom in your body<br>
+<Input type= "radio" Name= "question5" >Attempt to suck it out<br>
+
+
+<input type="submit" name="submit" value="SubmitQuiz" onClick="result()">
+<script type="text/javascript">
+function result()
+{
+	var score=0;
+	if(document.getElementById('correct1').checked)
+		{	score++;
+		}
+	if(document.getElementById('correct2').checked)
+		{	score++;
+		}
+	if(document.getElementById('correct3').checked)
+		{	score++;
+		}
+	if(document.getElementById('correct4').checked)
+		{	score++;
+		}
+	if(document.getElementById('correct5').checked)
+		{	score++;
+		}
+ alert("Your score is:"+score);
+ // to print on browser
+ // document.write("Your score is:"+score);
+}
+</script>
+
+</body>
+</html>

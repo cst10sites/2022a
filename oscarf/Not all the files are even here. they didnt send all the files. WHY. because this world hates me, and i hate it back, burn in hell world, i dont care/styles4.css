@@ -1,0 +1,82 @@
+header {
+  background-color: #d4af37;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+#bloodhoundtitle {
+	color: DarkRed;
+}
+
+body {
+	font-family: arial;
+	background-color: black;
+}
+
+footer {
+  padding: 10px;
+  text-align: center;
+  color: Red;
+}
+
+#back {
+	color: #990000;
+}
+
+#octane {
+	color: Chartreuse;
+}
+
+#bloodhound {
+	color: DarkRed;
+}
+
+#pathfinder {
+	color: CornflowerBlue;
+}
+
+#quiz {
+	color: red;
+	text-align: center;
+	float: bottom;
+	width: 100%;
+}
+
+nav {
+  float: center;
+  width: 100%;
+  background-color: #b8b8b8;
+  text-align: center;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+#about {
+	text-align: center;
+	background-color: DarkGray;
+	color: white;
+}
+
+#startup {
+	text-align: center;
+	background-color: AntiqueWhite;
+}
+
+#playstyle {
+	text-align: center;
+	width: 50%;
+	float: right;
+	background-color: Azure;
+}
+
+#abilities {
+	text-align: center;
+	width: 50%;
+	float: left;
+	background-color: AliceBlue;
+}
