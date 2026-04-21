@@ -1,0 +1,88 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  
+}
+
+p {
+	color: white;
+	margin-top: 50px;
+	margin-bottom: 100px;
+	margin-right: 220px;
+	margin-left: 220px;
+
+	background-color: rgba(100, 100, 100, 0.5);
+	
+
+}
+h1 {
+	color: white;
+	margin-top: 25px;
+}
+
+body {
+	    background-image: url("https://wallpapercave.com/wp/wp2677760.jpg");
+		background-repeat: no-repeat;
+        background-size: cover;
+	    text-align: center;
+		
+	}
+
+.topnav {
+  overflow: hidden;
+  background-color: gold;
+}
+
+.topnav a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: grey;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: black;
+  color: gold;
+}
+
+table{
+	color: brown;
+	: center;
+
+}
+.container {
+        position: relative; 
+        margin: 0 auto;  Center it 
+        max-width: 100%;
+        max-height: 100%;
+        text-align:  center;
+      }
+
+
+
+      .container .content {
+        position: absolute; / Position the background text /
+        top: 0; / makes header at top /
+        background: rgb(0, 0, 0); / Fallback color /
+        background: rgba(0, 0, 0, 0.5); / Black background with some opacity /
+        color: #f1f1f1; 
+        width: 97.5%; / Full width / 
+        padding: 20px;
+      }
+	  
+table, th, td {
+	border: 1px solid gold;
+}
+
+.center {
+  margin-left: auto;
+  margin-right: auto;
+}
+

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+<meta charset="utf-8" />
+<title>Simon Says</title>
+<link rel="stylesheet" href="style.css">
+<style></style>
+</head>
+
+<body>
+<h1>Simon says</h1><br>
+<p>Time Left:<span id="timeLeft"></span></p>
+<p>Simon Says:<span id="simeon"></span></p>
+<p>Score:<span id='score'></span></p>
+
+
+<button onClick="clickColor('GREEN')" style="width:5%; height:30px; background-color: green; " id="clickGreen"> Green</button>
+<button onClick="clickColor('RED')" style="width:5%; height:30px; background-color: red;"> Red</button>
+<button onClick="clickColor('BLUE')" style="width:5%; height:30px; background-color: blue;">Blue</button>
+<button onClick="clickColor('YELLOW')" style="width:5%; height:30px; background-color: yellow;"> Yellow</button>
+<br>
+<br>
+<br>
+<br>
+<br>
+<button onClick="clickStartStop()"> <span id="stop">start</span> </button>
+
+
+<script src="script.js"></script>
+</body>
+</html> 
