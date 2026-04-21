@@ -1,0 +1,146 @@
+html, body {
+  margin: 0;
+  background-color: White;
+  height: 100%;
+}
+
+.column {
+  float: left;
+  width: 31%;
+  margin-bottom: 16px;
+  padding: 13px;
+  padding-top: 13px;
+}
+
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+
+.container {
+  padding: 0 16px;
+}
+
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+p{
+	font-size: 15pt;
+	margin-right: 100px;
+	margin-left: 100px;
+}
+	
+	
+
+.navbar {
+  width: 100%;
+  background-color: #555;
+  overflow: auto;
+}
+
+.navbar a {
+  float: left;
+  padding: 12px;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+  width: 20%; 
+  text-align: center;
+}
+
+.navbar a:hover {
+  background-color: #AAAAAA;
+}
+
+.navbar a.active {
+  background-color: blue;
+}
+
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
+    width: 100%;
+    text-align: left;
+  }
+}
+
+.parallax {
+ 
+  background-image: url('https://cdn.quotesgram.com/img/20/41/970110462-Outstanding-Didier-Drogba-Jersey-No_-11.jpg');
+
+  height: 87%; 
+
+ 
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.intro {
+  text-align: center;
+  font-size: 30px;
+  font-weight: bolder;
+}
+
+* {box-sizing: border-box;}
+
+.parallaxQuiz
+h1{ text-align:center;
+font-size:30pt;
+}
+div{ text-align:center;
+}
+
+.parallaxStats
+#customers {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+#customers td, #customers th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#customers tr:nth-child(even){background-color: #f2f2f2;}
+
+#customers tr:hover {background-color: #ddd;}
+
+#customers th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #04AA6D;
+  color: white;
+}
+h1{text-align:center;
+font-size:30pt;
+}
+tr {
+text-align:center;
+}
+
+.parallaxHighlights
+div{text-align:center;
+}
+h1{text-align:center;
+font-size:30pt;
+}

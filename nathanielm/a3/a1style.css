@@ -1,0 +1,35 @@
+
+
+Body	{
+background-color: steelblue;
+margin: 100px;
+font-family: Century Gothic;
+
+}
+
+h1	{
+color: midnightblue; 
+}
+
+p	{
+color: black; 
+}
+
+.table	{
+	border:2px solid midnightblue;
+}
+
+
+th, td	{
+text-align: left;
+	
+}
+
+
+table, th, td	{
+	border:2px solid midnightblue;
+}
+
+.mouse: active	{
+	color: lime;
+}

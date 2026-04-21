@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+</html>
+<head>
+<meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1">
+
+<style>
+
+
+Body	{
+background-image: url("back.PNG");
+margin: 100px;
+}
+
+h1	{
+color: white; 
+}
+
+p1	{
+color: white; 
+}
+
+p2	{
+color: red; 
+}
+
+.myclass	{
+Font-size:50pt;
+}
+
+.container {
+  position: relative;
+  width: 50%;
+}
+
+.image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.container:hover .image {
+  opacity: 0.3;
+}
+
+.container:hover .middle {
+  opacity: 1;
+}
+
+.text {
+  background-color: #04AA6D;
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
+}
+
+
+</style>
+
+
+<title>Test Site</title>
+
+
+<h1 Nate Likes potatoes and cheese</h1>
+
+
+
+<h1>Cheese is good</h1>
+
+
+<p> i am a paragraph </p>
+
+
+
+
+
+<p1> and i am white </p1>
+<br>
+<p2> and i am red </p2>
+
+
+<h2> Fonts</h2>
+
+<p class="myclass"> I AM HUGE  </p>
+
+
+<h2>Opacity with Box</h2>
+<p>Hover over the image to see the effect.</p>
+
+<div class="container">
+  <img src="https://www.thoughtco.com/thmb/sTNTXShYmsv1Rp9uHhF7ienhjJg=/3437x2578/smart/filters:no_upscale()/canada--british-columbia--joffre-lakes-provincial-park--lower-joffre-lake-557384599-59c2e86522fa3a001151da15.jpg" alt="Avatar" class="image" style="width:100%">
+  <div class="middle">
+    <div class="text">British Columbia</div>
+  </div>
+</div>
+  
+  <a href ="Index.html">
+<div class="container">
+  <img src="GoBack.PNG" alt="mainpage Link" class="image" style="width:25%">
+  </div>
+</div>
+</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</head>

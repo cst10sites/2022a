@@ -1,0 +1,159 @@
+body {
+	background-color:#686868;
+	background-size:cover ;
+	background-repeat: no-repeat;
+	font-family: Verdana;
+	
+}
+.title
+{
+	position: relative;
+	top: 20%;
+	width: 100%;
+	font-size: 250%;
+	text-align: center;
+	color:  #e0e0d1;
+	font-family: Copperplate, Papyrus, fantasy;
+}
+.title1
+{
+	width: 100%;
+	position: relative;
+	top: 20%;
+	font-size: 350%;
+	text-align: center;
+	color: White;
+	font-family: Copperplate, Papyrus, fantasy;
+} 
+
+
+#left
+{
+	width: 50%;
+	height: 600px;
+	float: left;
+}
+#right
+{
+	position: relative;
+	height: 600px;
+	width: 50%;
+	float: right;
+	text-align: center;
+}
+#links
+{
+	color: white;
+	font-weight: bold;
+	width: 18%;
+	float: left;
+	text-align: center;
+	background: #000000	;
+	padding: 1%;
+}
+#links1
+{
+	font-weight: bold;
+	width: 18%;
+	float: left;
+	text-align: center;
+	background: #e0e0d1	;
+	padding: 1%;
+}
+.activePage
+{
+	color: black;
+}
+article {
+	float: right;
+	padding:5%;
+	width: 60%;
+	background-image:url("https://images.unsplash.com/photo-1519681393784-d120267933ba?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MXx8fGVufDB8fHx8&w=1000&q=80");
+	background-size:cover;
+	background-repeat: no-repeat;
+	height: 300px; 
+  }
+    section::after {
+	content: "";
+	display: table;
+	clear: both;
+  }
+  nav
+  {
+	  float: right;
+	  width: 15%;
+	  height:300px;
+  }
+  .box
+  {
+	  background: rgba(255, 255, 255, .7);
+	  padding: 25px;
+  }
+  .btn
+  {
+	text-decoration: none; 
+  }
+
+a  {
+	  color: #45fc20;
+}
+
+#links:hover{
+	background-color: #424242	;
+}
+.atl2 {
+	float: right;
+	padding:5%;
+	width: 60%;
+	background-image:url("https://wallpapershome.com/images/wallpapers/mountains-5120x2880-macos-4k-5k-sierra-sky-android-wallpaper-11473.jpg");
+	background-size:cover;
+	background-repeat: no-repeat;
+	height: 300px; 
+  }
+  .kingpawn {
+	float: 50%;
+  }
+  .atl3 {
+	float: right;
+	padding:5%;
+	width: 60%;
+	background-image:url("https://cdn.wallpapersafari.com/94/83/yCL8rd.jpg");
+	background-size:cover;
+	background-repeat: no-repeat;
+	height: 300px; 
+  }
+  .atl4 {
+	float: right;
+	padding:5%;
+	width: 60%;
+	background-image:url("https://cdn.wallpapersafari.com/73/20/QDUnGy.jpg");
+	background-size:cover;
+	background-repeat: no-repeat;
+	height: 300px; 
+  }
+  .atl5 {
+	float: right;
+	padding:5%;
+	width: 60%;
+	background-image:url("https://pixelz.cc/wp-content/uploads/2016/11/half-dome-granite-dome-rock-formation-yosemite-national-park-california-united-states-4k-wallpaper.jpg");
+	background-size:cover;
+	background-repeat: no-repeat;
+	height: 300px; 
+  }
+.videofur{
+	float: right;
+}
+.atl1
+{
+	float: right;
+	padding:5%;
+	width: 60%;
+	background: none;
+	height: 300px; 
+
+}
+.link12
+{
+	text-decoration: none;
+	color: black;
+}

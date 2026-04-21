@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<link rel="icon" href="Pawn.ico">
+<title>Chess</title>
+<link rel="stylesheet" href="Styles-a5.css">
+</head>
+
+<body>
+<div id="left">
+	<img src="https://wallpaperaccess.com/full/1231810.png" width="100% auto" height="100% auto">
+</div>
+<div id="right">
+	<h1 class="title1">Chess</h1>
+	<h2 class="title">Openings &amp; </h2>
+	<h2 class="title"> Basic Endgames</h2>
+</div>
+
+
+	<div id="links">
+			<a href="WhiteOpenings.html" class="btn" id="link">White Openings</a>
+	</div>
+	<div id="links">
+			<a href="BlackOpenings.html" class="btn" id="link">Black Openings</a>	
+	</div>
+	<div id="links">
+		<a href="Index.html" class="btn">Main Page</a>
+	</div>
+	<div id="links">
+			<a href="EndGames.html" class="btn" id="link">EndGames</a>
+	</div>
+	<div id="links1">
+			<a href="Quiz.html" class="btn activePage" id="link">Quiz</a>
+	</div>
+<section>
+	<nav>
+	</nav>
+	<article class="atl1">
+		<div class="box"> 
+			<h1>Quiz</h1>
+           <p>Is it possible to do a checkmate with 2 rooks?</p>
+           <button onclick="yes1();" id="yes1">Yes</button>
+           <button onclick="no1();" id="no1">No</button>
+		   <br>
+		   <p>Is it possible to give checkmate with 1 bishop and the king?</p>
+           <button onclick="yes2();" id="yes2">Yes</button>
+           <button onclick="no2();" id="no2">No</button>
+		   <br>
+		   <p>Is the scandinavian opening a white´s opening?</p>
+           <button onclick="yes3();" id="yes3">Yes</button>
+           <button onclick="no3();" id="no3">No</button>
+		   <br>
+		   <p>Is the Olle system opening a white´s opening?</p>
+           <button onclick="yes4();" id="yes4">Yes</button>
+           <button onclick="no4();" id="no4">No</button>
+		   <br>
+		   <p>Is the alekhine opening a white´s opening?</p>
+           <button onclick="yes5();" id="yes5">Yes</button>
+           <button onclick="no5();" id="no5">No</button>
+		   <br>
+		   <br>
+		   <button onclick="checkans();">Check</button>
+		   <button onclick="reset1();">Reset</button>
+		   <p><span id="ans"></span></p>
+		</div>
+	</article>
+	<nav>
+	</nav>
+</section>
+<script src="Script-a5.js"></script>
+</body>
+</html>
+
+

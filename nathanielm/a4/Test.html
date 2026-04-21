@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Lesson 7</title>
+</head>
+<body>
+<h1>Stopwatch</h1>
+<button onclick="updateStopWatch();" id="lap">Start</button>
+
+<p id="timeDisplayed"></p>
+<p id="timeElapsed"></p>
+<script> 
+var nClicks = 0;
+var startTime; // to be assigned later
+function updateStopWatch() {
+    
+    if (nClicks == 0) {
+        // =  means to assign value
+        // == means to equality between values (True/False)
+        startTime = new Date();
+        nClicks = nClicks + 1;
+    }
+    
+    
+}
+
+function resetStopWatch() {
+    /*
+    document.getElementById("lap").innerHTML = "Start";
+    document.getElementById("timeElapsed").innerHTML = "";
+    document.getElementById("timeDisplayed").innerHTML = "";
+    nClicks = 0;
+    */
+    location.reload(); 
+}
+
+// 2. Code below controls automatic update of Stop Watch once Start button is pressed.
+function autoStopWatch() {
+    if (nClicks > 0) {
+        var currentTime = new Date();
+        var elapsedTime = (currentTime - startTime) / 1000;
+        
+        var myColor = "purple";
+        
+        // 3. Code below randomizes font color of time.
+        /* 
+        var randomNum = Math.random();  // decimal btwn 0 and 1
+        
+        if (randomNum < 1/3) {          // red if btwn 0 and 0.33
+            myColor = "red";
+        }
+        else if (randomNum < 2/3) {     // green if btwn 0.33 and 0.67
+            myColor = "green";
+        }
+        else {                          // black otherwise
+            myColor = "black";
+        }
+        */
+    
+        document.getElementById("timeDisplayed").innerHTML = 
+            '<span style="color: ' + myColor + ';">' +
+            elapsedTime +
+            '</span>';
+        
+    }
+}
+setInterval(autoStopWatch, 100); // repeat function every 100 ms (0.1 s)
+</script>
+</body>
+</html>

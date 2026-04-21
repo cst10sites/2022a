@@ -1,0 +1,29 @@
+body {
+	background-color: black;
+	color: white;
+	margin: 100px 50 px;
+	font-family: Verdana;
+}
+
+h1, h2 {
+	color:#66ff33;
+}
+table {
+	border-collapse: collapse;
+}
+th, td {
+	text-align: center;
+	padding: 5px
+}
+table, th, td {
+	border: 2px solid white;
+}
+a {
+		color:  #66ff33;
+}
+span {
+	color:  #66ffff;
+}
+th {
+	color: #66ff33;
+}

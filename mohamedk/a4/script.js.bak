@@ -1,0 +1,251 @@
+var score = 0;
+var nClicks = 0;
+var color;
+var startTime;
+var timeLeft = 0;
+
+function clickStartStop() {
+	if (nClicks=0){
+		startTime = new Date();
+		changeColor();
+		nClicks = nClicks + 1;
+    }
+
+    else {
+        location.reload()
+    }
+
+}
+	
+function autoupdateTime() {
+    if (nClicks > 0) {
+        var currentTime = new Date();
+        var timeLeft = 15 - (currentTime - startTime) / 1000;
+        if (timeLeft < 0) {
+            timeLeft = 0;
+            resetGame();
+        }
+        document.getElementById("timeDisplay").innerHTML = (Math.round(timeLeft * 100) / 100).toFixed(2);
+        document.getElementById("scoreDisplay").innerHTML = score;
+    }
+}
+
+var randomNum = Math . random();
+	if (randomNum < 1/4) {
+		mycolor = "red";
+	}
+	else if (randomNum < 2/4) {
+		mycolor = "green";
+	}
+	else if (randomNum < 3/4) {
+		mycolor = "yellow";
+	}
+	else  {
+		mycolor = "blue";
+	}
+
+
+
+function resetGame() {
+    if (score >= 69) {
+        audio.play();
+    }
+    document.getElementById("timeDisplay").innerHTML = timeLeft;
+    document.getElementById("Bstart").innerHTML = "START";
+    nClicks = 0;
+    GameStart = false;
+}
+
+
+setInterval(autoupdateTime, 30);
+
+
+function clickBlue() {
+	if (nClicks >0) {
+	if (selectedColor == 0){
+	playerScore=(playerScore + 15)
+		selectedColor=Math.floor(Math.random()* 4)
+		document.getElementById('score').innerHTML =playerScore
+		
+	if (selectedColor == 0){
+		document.getElementById('simon').innerHTML = "simon says red"
+}
+	else if (selectedColor == 1){
+		document.getElementById('simon').innerHTML = "simon says green"
+}
+else if (selectedColor == 2){
+		document.getElementById('simon').innerHTML = "simon says blue"
+}
+else if (selectedColor == 3){
+		document.getElementById('simon').innerHTML = "simon says yellow"
+}
+		
+		
+else  {
+	playerScore=(playerScore - 20)
+	selectedColor=Math.floor(Math.random()* 4)
+		document.getElementById('score').innerHTML =playerScore
+		
+		if(selectColor==0){
+			document.getElementById('simon').innerHTML = "simon says red"
+		}
+		else if (selectColor == 1){
+			document.getElementById('simon').innerHTML = "simon says green"
+		}
+		else if (selectColor == 2){
+			document.getElementById('simon').innerHTML = "simon says blue"
+		}
+		else if (selectColor == 3){
+			document.getElementById('simon').innerHTML = "simon says yellow"
+		}
+}
+	}
+}
+	}
+
+
+function clickRed () {
+	if (nClicks >0) {
+	if (selectedColor == 0){
+	playerScore=(playerScore + 15)
+		selectedColor=Math.floor(Math.random()* 4)
+		document.getElementById('score').innerHTML =playerScore
+		
+	if (selectedColor == 0){
+		document.getElementById('simon').innerHTML = "simon says red"
+}
+	else if (selectedColor == 1){
+		document.getElementById('simon').innerHTML = "simon says green"
+}
+else if (selectedColor == 2){
+		document.getElementById('simon').innerHTML = "simon says blue"
+}
+else if (selectedColor == 3){
+		document.getElementById('simon').innerHTML = "simon says yellow"
+}
+		
+		
+else  {
+	playerScore=(playerScore - 20)
+	selectedColor=Math.floor(Math.random()* 4)
+		document.getElementById('score').innerHTML =playerScore
+		
+		if(selectColor==0){
+			document.getElementById('simon').innerHTML = "simon says red"
+		}
+		else if (selectColor == 1){
+			document.getElementById('simon').innerHTML = "simon says green"
+		}
+		else if (selectColor == 2){
+			document.getElementById('simon').innerHTML = "simon says blue"
+		}
+		else if (selectColor == 3){
+			document.getElementById('simon').innerHTML = "simon says yellow"
+		}
+}
+	}
+}
+	}
+
+function clickYellow () {
+	if (nClicks >0) {
+	if (selectedColor == 0){
+	playerScore=(playerScore + 15)
+		selectedColor=Math.floor(Math.random()* 4)
+		document.getElementById('score').innerHTML =playerScore
+		
+	if (selectedColor == 0){
+		document.getElementById('simon').innerHTML = "simon says red"
+}
+	else if (selectedColor == 1){
+		document.getElementById('simon').innerHTML = "simon says green"
+}
+else if (selectedColor == 2){
+		document.getElementById('simon').innerHTML = "simon says blue"
+}
+else if (selectedColor == 3){
+		document.getElementById('simon').innerHTML = "simon says yellow"
+}
+		
+		
+else  {
+	playerScore=(playerScore - 20)
+	selectedColor=Math.floor(Math.random()* 4)
+		document.getElementById('score').innerHTML =playerScore
+		
+		if(selectColor==0){
+			document.getElementById('simon').innerHTML = "simon says red"
+		}
+		else if (selectColor == 1){
+			document.getElementById('simon').innerHTML = "simon says green"
+		}
+		else if (selectColor == 2){
+			document.getElementById('simon').innerHTML = "simon says blue"
+		}
+		else if (selectColor == 3){
+			document.getElementById('simon').innerHTML = "simon says yellow"
+		}
+}
+	}
+}
+	}
+
+
+function clickGreen () {
+	if (nClicks >0) {
+	if (selectedColor == 0){
+	playerScore=(playerScore + 15)
+		selectedColor=Math.floor(Math.random()* 4)
+		document.getElementById('score').innerHTML =playerScore
+		
+	if (selectedColor == 0){
+		document.getElementById('simon').innerHTML = "simon says red"
+}
+	else if (selectedColor == 1){
+		document.getElementById('simon').innerHTML = "simon says green"
+}
+else if (selectedColor == 2){
+		document.getElementById('simon').innerHTML = "simon says blue"
+}
+else if (selectedColor == 3){
+		document.getElementById('simon').innerHTML = "simon says yellow"
+}
+		
+		
+else  {
+	playerScore=(playerScore - 20)
+	selectedColor=Math.floor(Math.random()* 4)
+		document.getElementById('score').innerHTML =playerScore
+		
+		if(selectColor==0){
+			document.getElementById('simon').innerHTML = "simon says red"
+		}
+		else if (selectColor == 1){
+			document.getElementById('simon').innerHTML = "simon says green"
+		}
+		else if (selectColor == 2){
+			document.getElementById('simon').innerHTML = "simon says blue"
+		}
+		else if (selectColor == 3){
+			document.getElementById('simon').innerHTML = "simon says yellow"
+		}
+}
+	}
+}
+	}
+
+function timeDisplay () {
+	if (nClicks == 1){
+	var currentTime = new Data()
+	var timeLeft = 15.1 - (currentTime - startTime)/1000 
+	document.getElementById('timeDisplay').innerHTML = (Math.floor(timeLeft = 10) / 10)
+	if(timeLeft <= 0) {
+		nClicks = 0
+		document.getElementById('timeDisplay').innerHTML = "0"
+		document.getElementById('start').innerHTML = "start"
+	}
+	}
+	else {
+		location.reset()
+	}
+}

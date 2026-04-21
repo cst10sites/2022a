@@ -1,0 +1,79 @@
+body {
+	background-image: url("https://wallpaperaccess.com/full/5049593.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	color:  #779ecb;
+	margin: 100px 50 px;
+	font-family: Verdana;
+	text-align: center;
+}
+
+h1, h2, h4 {
+	color:  #ff8800;
+	text-align: center;
+}
+a {
+	text-align: center;
+	color: #ffb347;
+}
+span {
+	text-align: center;
+	color:  White;
+}
+.bbtn {
+	padding: 2%;
+	background-color: #aec6cf;
+	border: none;
+}
+.rbtn {
+	padding: 2%;
+	background-color: #ff6961;
+	border: none;
+}
+.gbtn {	
+	padding: 2%;
+	background-color: #bee5b0; 
+	border: none;
+}
+.ybtn {
+	padding: 2%;
+	background-color: #FDFD96; 
+	border: none;
+}
+.sbtn{
+	padding: 0.5%;
+	background-color: #779ecb;
+	display: center;
+	border: none;
+}
+h3
+{
+	text-align: center;
+	color:  White;
+}
+.4btn
+{
+	display: flex;
+}
+.2btn
+{
+	display: flex;
+}
+.obtn
+{
+	padding: 0.5%;
+	background-color: #779ecb;
+	border: none;
+}
+.nbtn
+{
+	padding: 0.5%;
+	background-color: #779ecb;
+	border: none;
+}
+.pbtn
+{
+	padding: 0.5%;
+	background-color: #779ecb;
+	border: none;
+}

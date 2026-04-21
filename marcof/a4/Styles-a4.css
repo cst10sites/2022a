@@ -1,0 +1,79 @@
+body {
+	background-image: url("https://www.pixelstalk.net/wp-content/uploads/2016/03/Amazing-wallpapers-HD.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	color: #ff8800;
+	margin: 100px 50 px;
+	font-family: Verdana;
+	text-align: center;
+}
+
+h1, h2, h4 {
+	color: #ff8800;
+	text-align: center;
+}
+a {
+	text-align: center;
+	color:#ff8800;
+}
+span {
+	text-align: center;
+	color:  White;
+}
+.bbtn {
+	padding: 2%;
+	background-color: #009999;
+	border: none;
+}
+.rbtn {
+	padding: 2%;
+	background-color: #cc0000;
+	border: none;
+}
+.gbtn {	
+	padding: 2%;
+	background-color: #00cc00; 
+	border: none;
+}
+.ybtn {
+	padding: 2%;
+	background-color: #ffcc00; 
+	border: none;
+}
+.sbtn{
+	padding: 0.5%;
+	background-color: black;
+	display: center;
+	border: none;
+}
+h3
+{
+	text-align: center;
+	color:  White;
+}
+.4btn
+{
+	display: flex;
+}
+.2btn
+{
+	display: flex;
+}
+.obtn
+{
+	padding: 0.5%;
+	background-color: black;
+	border: none;
+}
+.nbtn
+{
+	padding: 0.5%;
+	background-color: black;
+	border: none;
+}
+.pbtn
+{
+	padding: 0.5%;
+	background-color: black;
+	border: none;
+}

@@ -1,0 +1,84 @@
+body {
+	background-image: url("https://i.pinimg.com/originals/a5/1b/4b/a51b4b01107c8f9f20576d6abb43c671.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	color: Black;
+	margin: 100px 50 px;
+	font-family: Verdana;
+	text-align: center;
+}
+
+h1, h2 {
+	color: Black;
+	text-align: center;
+}
+a {
+	text-align: center;
+	color:#ff8800;
+}
+span {
+	text-align: center;
+	color:  White;
+}
+.bbtn {
+	padding: 2%;
+	background-color: blue;
+	border: none;
+}
+.rbtn {
+	padding: 2%;
+	background-color: red;
+	border: none;
+}
+.gbtn {	
+	padding: 2%;
+	background-color: green; 
+	border: none;
+}
+.ybtn {
+	padding: 2%;
+	background-color: yellow; 
+	border: none;
+}
+.sbtn{
+	padding: 0.5%;
+	background-color: black;
+	display: center;
+	border: none;
+}
+h3
+{
+	text-align: center;
+	color:  White;
+}
+.4btn
+{
+	display: flex;
+}
+.2btn
+{
+	display: flex;
+}
+.obtn
+{
+	padding: 0.5%;
+	background-color: black;
+	border: none;
+}
+.nbtn
+{
+	padding: 0.5%;
+	background-color: black;
+	border: none;
+}
+.pbtn
+{
+	padding: 0.5%;
+	background-color: black;
+	border: none;
+}
+h4
+{
+	color: #ff8800;
+	text-align: center;
+}
