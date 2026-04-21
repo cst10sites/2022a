@@ -1,0 +1,149 @@
+
+audio { display:none;}
+
+body {
+	background-color: black;
+}
+
+a {
+	color:red;
+	text-decoration:none;
+}
+
+a:hover {
+	color:#33ffff;
+}
+
+iframe {
+	margin: 40px 10px 10px 10px;
+}
+
+h1 {
+	color: rgb(230, 0, 0);
+	text-align: center;
+	font-size: 40px;
+	padding: 14px;
+}
+
+h2 {
+	color: rgb(230, 0, 0);
+	text-align: left;
+	font-size: 30px;
+	padding: 14px;
+}
+
+p {
+	color: white;
+	margin: 10px 10px 10px 10px;
+	font-size: 20px;
+	padding: 14px;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+#p {
+	margin-left: 40%;
+	padding-right: 16px;
+}
+
+#o {
+	float:left;
+	max-width: 50%;
+	padding-left:16px;
+	padding-right:5px;
+}
+
+* {box-sizing:border-box}
+
+.slideshow-container {
+  max-width: 50%;
+  float: left;
+  margin: auto;
+}
+
+.slideshow-container2 {
+	max-width: 45%;
+  float: right;
+  margin-right:8%;
+}
+
+.mySlides {
+  display: none;
+}
+
+.prev, .next {
+  width: auto;
+  border-radius: 200px;
+  border-color: gray;
+  background-color:black;
+  color:white;
+  font-size: 18px;
+  transition: 0.6s ease;
+  user-select: none;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+.mySlides {
+	max-width: 500px;
+	margin-left: 37px;
+}
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+
+.section1 {
+  height: 5000px;
+  background-color: rgb(204, 0, 0);
+}
+
+.topnav {
+	overflow: hidden;
+   background-color: rgb(204, 0, 0);
+}
+
+.topnav a {
+  float: right;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #33ffff;
+  color: black;
+}
+
+.b {
+	margin: 20px; border=0px; width:250px; height:200px; font-size: 24px; font-family: serif; color: rgb(230, 0, 0)
+}
+.b:hover {
+	-moz-transform: scale(1.2);
+	-webkit-transform: scale(1.2);
+	-o-transform: scale(1.2);
+	transform: scale(1.2);
+}
