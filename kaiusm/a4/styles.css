@@ -1,0 +1,55 @@
+body{
+	background-color: black;
+	color: lightgrey;
+	margin: 100px 250px;
+	font-family: Verdana;
+	text-align: left;
+}
+
+.btn {
+	padding: 15px;
+	width: 150px;
+	border: 100px;
+	color: lightgrey;
+	font-family: Verdana;
+	font-size: 20px;
+	}
+	
+.yellow_btn {
+	padding: 15px;
+	width: 150px;
+	border: 100px;
+	color: DarkSlateGrey;
+	font-family: Verdana;
+	font-size: 20px;
+	}
+	
+.start_btn{
+	padding: 15px;
+	width: 625px;
+	border: 100px;
+	color: lightgrey;
+	font-family: Verdana;
+	font-size: 20px;
+	background-color: DarkSlateGrey;
+}
+
+#tit{
+	font-size:85px;
+	text-align: left;
+}
+
+#minitit{
+	font-size: 60px;
+	color: CornflowerBlue;
+}
+
+table, th, td{
+	padding:0px;
+	text-align: left;
+	/*border: 1px solid white;*/
+	width:20px;
+	padding: 2px;
+	table-layout:fixed;
+	font-size:22px;
+}

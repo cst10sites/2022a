@@ -1,0 +1,90 @@
+body{
+	background-color: #32292F;
+	margin: 100px 50px;
+}
+h1{
+	text-align:center;
+	font-family:Courier New;
+	color: #F0F7F4;
+}
+
+p{
+	text-align:left;
+	font-family:Courier New;
+	color: #F0F7F4;
+	font-size: 24px;
+}
+
+
+table {
+	border-collapse: collapse;
+	padding: 100px;
+	background-color: #705D56;
+	color:#F0F7F4;
+}
+
+th{
+	/* text-align: left; */
+}
+
+table, th, td{
+	font-family: Courier New;
+	border: 2px solid #F0F7F4;
+}
+
+th{
+	background-color: #70ABAF;
+}
+
+td{
+	padding: 7px;
+}
+
+.h1-def{
+	padding: 0px;
+	text-align: left;
+}
+
+.image1 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  padding: 5px;
+}
+
+.image2 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 24%;
+  padding: 5px;
+}
+
+.image3 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
+  padding: 5px;
+}
+
+.example-target{
+	padding: 10px;
+	text-align: center;
+}
+
+a:link{
+	/* location that you have never been to*/
+	color: #F0F7F4;
+}
+			
+a:visited{
+	/* link you recently visited*/
+	color:#99E1D9;
+}
+			
+a:hover{
+	/* mouse over - must come after link and visited color*/
+	color: #F0F7F4;
+}

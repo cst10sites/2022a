@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Assignment 3</title>
+		<link rel="stylesheet" href="styles.css">
+	</head>
+	<body>
+		<h1>Useful HTML Tags</h1>
+		<table style="width:100%">
+			<tr>
+				<th>Tag</th>
+				<th>Definition</th>
+				<th>Example</th>
+			</tr>
+			<tr>
+				<td>&#60;title&#62; &#60;/title&#62;</td>
+				<td>Use only inside the &#60;head&#62; tag, to create a title for the web page.</td>
+				<td><img src="assets/tab.png" alt="Web page title using &#60;/title&#62;" class="image1"></td>
+			</tr>
+			<tr>
+				<td>&#60;link rel="stylesheet" href="styles.css"&#62;</td>
+				<td>Used to load an external CSS file, so it applies to the web page.</td>
+				<td><img src="assets/css.png" alt="CSS file icon" class="image2"></td>
+			</tr>
+			<tr>
+				<td>&#60;p&#62; &#60;/p&#62;</td>
+				<td>Used to create a paragraph. Every set of &#60;p&#62; tags is a new paragraph.</td>
+				<td><p>Paragraph One</p><p>Paragraph Two</p></td>
+			</tr>
+			<tr>
+				<td>&#60;h1&#62; &#60;/h1&#62; <br><br> &#60;h2&#62; &#60;/h2&#62;</td>
+				<td>&#60;h1&#62; Used to create titles <br><br> &#60;h2&#62; &#60;/h2&#62; Used to create sub-headings</td>
+				<td class="h1-def"><h1 class="h1-def">&#60;h1&#62;</h1><br><h2>&#60;h2&#62;</h2></td>
+			</tr>
+			<tr>
+				<td>&#60;a href="target.html"&#62;Link Text&#60;/a&#62;</td>
+				<td>Used to navigate to another web page or site</td>
+				<td><a href="assets/target.html">Link Text</a></td>
+			</tr>
+			<tr>
+				<td>&#60;img src="assets/flag.jpg" alt="United Kingdom Flag" style="width:300px;"&#62;</td>
+				<td>Used to insert an image, <span style="font-style: italic">src</span> specifies the image location, <span style="font-style: italic">alt</span> is text that appears if the image doesn't load, <span style="font-style: italic">style</span> allows the image to be formatted with inline CSS. </td>
+				<td><img class="image3" src="assets/flag.jpg" alt="United Kingdom Flag" style="width:300px;"></td>
+			</tr>
+			<tr>
+				<td>&#60;iframe style="width:500px; height:300px;" src="web path"&#62; &#60;/iframe&#62;</td>
+				<td>Allows a web page to be loaded within another web page.</td>
+				<td><iframe style="width:560px; height:275px;" src="https://www.wikipedia.org/"></iframe></td>
+			</tr>
+			<tr>
+				<td>&#60;br&#62;</td>
+				<td>Creates a line break.</td>
+				<td>Text.<br>Text.</td>
+			</tr>
+			<tr>
+				<td>&#60;hr&#62;</td>
+				<td>Creates a horizontal line break.</td>
+				<td>Text.<hr>Text.</td>
+			</tr>
+			<tr>
+				<td>&#60;ol&#62;<br>
+				&#9; &#60;li&#62;Power on&#60;/li&#62;<br>
+				&#9; &#60;li&#62;Power off&#60;/li&#62;<br>
+				&#60;/ol&#62;</td>
+				<td>&#60;ol&#62; creates a numbered list, &#60;li&#62; is for list items.</td>
+				<td>
+					<ol>
+						<li>Power on</li>
+						<li>Power off</li>
+					</ol>
+				</td>
+			</tr>
+			
+			<tr>
+				<td>&#60;ul&#62;<br>
+				&#9; &#60;li&#62;Power on&#60;/li&#62;<br>
+				&#9; &#60;li&#62;Power off&#60;/li&#62;<br>
+				&#60;/ul&#62;</td>
+				<td>&#60;ul&#62; creates an unordered, bullets list.</td>
+				<td>
+					<ul>
+						<li>Candy</li>
+						<li>Dice</li>
+					</ul>
+				</td>
+			</tr>	
+
+			<tr>
+				<td>&#60;p&#62;This is &#60;span style="color: red;"&#62;red&#60;/span&#62; text.&#60;p&#62;</td>
+				<td>Changes CSS within a tag.</td>
+				<td><p>This is <span style="color: red;">red</span> text.<p></td>
+			</tr>			
+		</table>		
+	</body>
+</html>

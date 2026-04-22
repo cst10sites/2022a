@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="eng">
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="styles.css">
+<title>Simon Says 2000</title>
+</head>
+
+<body>
+<p id="tit">Simon Says <span id="minitit"> 2000</span></p>
+<!-- <p>High Score: <span id="hiscore">0</span> by <span id="hiname"> <span></p> -->
+<table style="width:75%">
+			<tr>
+				<td><p>Score: <span id="score">0</span></p></td>
+				<td><p id="wrong"></p></td>
+			</tr>
+			<tr>
+				<td><p>Colour: <span id="colour">Get ready!</span></p></td>
+				<td><p><span id="timeDisplayed">1</span></p></td>
+			</tr>
+</table>
+<!-- <p>Score: <span id="score">0</span></p>
+<p>Time: <span id="timeDisplayed">15</span></p>
+<p>Colour: <span id="colour">Get ready!</span></p>
+<p id="wrong"></p> -->
+<button onclick=clickColor("BLUE") class="btn" id="b-blue" style="background-color:blue;">Blue</button>
+<button onclick=clickColor("GREEN") class="btn" id="b-green" style="background-color:green;">Green</button>
+<button onclick=clickColor("YELLOW") class="yellow_btn" id="b-yellow" style="background-color:yellow;">Yellow</button>
+<button onclick=clickColor("RED") class="btn" id="b-red" style="background-color:red;">Red</button>
+<br>
+<br>
+<button onclick="Timestart();" id="startButtom" class="start_btn">Start</button>
+<br>
+<br>
+<!-- <p>Background Music</p>
+<audio controls autoplay loop>
+<source src="bgmusic.mp3" type="audio/mpeg">
+</audio> -->
+<!-- <audio autoplay>
+  <source src="bgmusic.mp3" type="audio/mpeg">
+</audio> -->
+<script src="script.js"></script>
+</body>
+</html>

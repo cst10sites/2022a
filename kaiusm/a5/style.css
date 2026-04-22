@@ -1,0 +1,217 @@
+body{
+	background-color: Sienna;
+	font-family: Courier 
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+  border-radius: 20px;
+  border: 3px solid Peru;
+  background-color: #333;
+  overflow: hidden;
+  background-image: url("assets/woodg.jpg");
+  background-repeat: repeat;
+  text-align: left;
+  
+  width: 97%;
+  /* position: fixed;  */ 
+  position: -webkit-sticky;
+  position: sticky;
+  top:10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: right;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+.titl{
+  position: absolute;
+  top: -13px;
+  left: 20px;
+  color: white;
+}
+
+main {
+  /* margin: 0; */
+  padding: 5px;
+  /*background-color: lightgray;*/
+  background-image: url("assets/woodg.jpg");
+  background-repeat: repeat;
+  color: white;
+  border-radius: 20px;
+  border: 3px solid Peru;
+  /* width:99%; */
+  /* position: auto; */
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+main > h1, p, .browser {
+  margin: 10px;
+  padding: 5px;
+  color: white;
+}
+
+#main-page-title{
+	text-align: center;
+	font-size: 50px;
+}
+
+.para, p, h1, h2 ,h3{
+	text-align: justify;
+	text-justify: inter-word;
+	margin-left: 5px;
+}
+
+.main-img{
+	 text-align: center; 
+}
+
+#img-btn{
+	background-color: silver;
+	border-radius: 50%;
+	padding: 15px;
+	position: absolute;
+	left: 99px;
+	top:225px;
+}
+
+.btn-pro{
+	background-color: DimGrey;
+	border-radius: 50%;
+	padding: 10px;
+}
+
+.gal-img{
+	text-align: center;
+	border: 3px solid Peru;
+	width: 500px;
+	height: 669px;
+}
+
+#audio-title{
+	font-size:20px;
+	text-decoration: underline;
+}
+
+table, th, td{
+	padding:0px;
+	text-align: left;
+	border: 1px solid white;
+	/* width:200px; */
+	padding: 2px;
+	table-layout:fixed;
+	margin-left: 20px;
+}
+
+a{
+	color: white;
+}
+
+.his-menu{
+	border-radius: 20px;
+	border: 3px solid Peru;
+	width: 450px;
+	margin-left: 30px;
+	padding: 5px;
+}
+
+#image-table{
+	position: absolute;
+	left: 620px;
+	top:690px;
+	height:574px;
+}
+
+.ula{
+  list-style-type: none;
+  text-indent: 10px;
+}
+
+.spec-cen{
+	text-align:center
+}
+
+.snd-bord{
+	border-radius: 20px;
+	border: 3px solid Peru;
+	width: 750px;
+	padding: 15px;
+}
+
+.snd-text{
+	border-radius: 20px;
+	border: 3px solid Peru;
+	width: 300px;
+	margin-left:5px;
+	padding: 30px;
+	position: absolute;
+	left: 830px;
+	top:2020px;
+}
+
+#tape-d-img{
+	text-align: left; 
+}
+
+.issue-para{
+	position: absolute;
+	left: 350px;
+	top:150px;
+	width:500px;
+	margin-left:30px;
+}
+
+span {
+  padding-top: 0px;
+  display: inline-block;
+  margin-left:20px;
+  width:800px;
+}
+
+.box {
+   display: flex;
+   align-items:center;
+}
+
+#prono{
+	position: absolute;
+	left: 650px;
+	top:200px;
+}
+
+#probtn{
+	position: absolute;
+	left: 665px;
+	top:230px;
+}
+
+#program-changetext{
+	position: absolute;
+	left: 30px;
+	top:200px;
+}
+
+
+
