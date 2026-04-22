@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<Title>Final Project</Title>
+<link rel="stylesheet" href="realQuizStyle.css">
+<link rel="icon" href="favicon.ico">
+</head>
+
+<body>
+  <div class="container">
+  <div id="question-container" class="hide">
+    <div id="question">Question</div>
+    <div id="answer-buttons" class="btn-grid">
+      <button class="btn">Answer 1</button>
+      <button class="btn">Answer 2</button>
+      <button class="btn">Answer 3</button>
+      <button class="btn">Answer 4</button>
+    </div>
+  </div>
+  <div class="controls">
+    <button id="start-btn" class="start-btn btn">Start</button>
+    <button id="next-btn" class="next-btn btn hide">Next</button>
+  </div>
+</div>
+    
+
+<script>
+const startButton = document.getElementById('start-btn')
+const nextButton = document.getElementById('next-btn')
+const questionContainerElement = document.getElementById('question-container')
+const questionElement = document.getElementById('question')
+const answerButtonsElement = document.getElementById('answer-buttons')
+
+let shuffledQuestions, currentQuestionIndex
+
+startButton.addEventListener('click', startGame)
+nextButton.addEventListener('click', () => {
+  currentQuestionIndex++
+  setNextQuestion()
+})
+
+function startGame() {
+  startButton.classList.add('hide')
+  shuffledQuestions = questions.sort(() => Math.random() - .5)
+  currentQuestionIndex = 0
+  questionContainerElement.classList.remove('hide')
+  setNextQuestion()
+}
+
+function setNextQuestion() {
+  resetState()
+  showQuestion(shuffledQuestions[currentQuestionIndex])
+}
+
+function showQuestion(question) {
+  questionElement.innerText = question.question
+  question.answers.forEach(answer => {
+    const button = document.createElement('button')
+    button.innerText = answer.text
+    button.classList.add('btn')
+    if (answer.correct) {
+      button.dataset.correct = answer.correct
+    }
+    button.addEventListener('click', selectAnswer)
+    answerButtonsElement.appendChild(button)
+  })
+}
+
+function resetState() {
+  clearStatusClass(document.body)
+  nextButton.classList.add('hide')
+  while (answerButtonsElement.firstChild) {
+    answerButtonsElement.removeChild(answerButtonsElement.firstChild)
+  }
+}
+
+function selectAnswer(e) {
+  const selectedButton = e.target
+  const correct = selectedButton.dataset.correct
+  setStatusClass(document.body, correct)
+  Array.from(answerButtonsElement.children).forEach(button => {
+    setStatusClass(button, button.dataset.correct)
+  })
+  if (shuffledQuestions.length > currentQuestionIndex + 1) {
+    nextButton.classList.remove('hide')
+  } else {
+    startButton.innerText = 'Restart'
+    startButton.classList.remove('hide')
+  }
+}
+
+function setStatusClass(element, correct) {
+  clearStatusClass(element)
+  if (correct) {
+    element.classList.add('correct')
+  } else {
+    element.classList.add('wrong')
+  }
+}
+
+function clearStatusClass(element) {
+  element.classList.remove('correct')
+  element.classList.remove('wrong')
+}
+
+const questions = [
+	{
+		question: 'What did Einstein never discover during his miracle year (or any year)?',
+		answers: [
+		{ text: 'The existence of atoms', correct: false },
+		{ text: 'The existence of neutrons', correct: true },
+		{ text: 'That light has the fastest possible speed of anything in the universe', correct: false },
+		{ text: 'Mass-energy equivalence', correct: false }
+		]
+	},
+	{
+		question: 'What two elements did the Marie Curie discover?',
+		answers: [
+		{ text: 'Plutonium and Fermium', correct: false },
+		{ text: 'Uranium and Curium', correct: false },
+		{ text: 'Redium and Polonium', correct: false },
+		{ text: 'Radium and Polonium', correct: true }
+		]
+	},
+	{
+		question: 'What is Richard Feynmans signature contribution to physics?',
+		answers: [
+		{ text: 'Feynman Diagrams', correct: true },
+		{ text: 'Bose-Feynman condensate', correct: false },
+		{ text: 'Feynman law', correct: false },
+		{ text: 'Feynman trajectories', correct: false }
+		]
+	},
+	{
+		question: 'What is Isaac Newtons signature contribution to science and mathematics?',
+		answers: [
+		{ text: 'Calculus', correct: false },
+		{ text: 'Newtons 3 laws', correct: false },
+		{ text: 'Universal law of gravitation', correct: false },
+		{ text: 'Newtonian trajectories', correct: true }
+		]
+	},
+	{
+		question: 'What is the equation to calculate acceleration?',
+		answers: [
+		{ text: 'a=ΔV/td', correct: false },
+		{ text: 'a=ΔV/t', correct: true },
+		{ text: 'a=ΔV/g', correct: false },
+		{ text: 'a=ΔV/2t', correct: false }
+		]
+	},
+	{
+		question: 'What is the equation to calculate the distance an object has fallen when droped from a height?',
+		answers: [
+		{ text: 'd=at2', correct: false },
+		{ text: 'd=½vt2', correct: false },
+		{ text: 'd=½at3', correct: false },
+		{ text: 'd=½gt2', correct: true }
+		]
+	},
+	{
+		question: 'What is the equation to calculate potential energy?',
+		answers: [
+		{ text: 'P.E.=m', correct: false },
+		{ text: 'P.E.=mgh', correct: true },
+		{ text: 'P.E.=mg', correct: false },
+		{ text: 'P.E.=mh', correct: false }
+		]
+	},
+	{
+		question: 'What is the equation to calculate kinetic energy?',
+		answers: [
+		{ text: 'K.E.=½mv', correct: false },
+		{ text: 'K.E.=½mv2', correct: true },
+		{ text: 'K.E.=½mv3', correct: false },
+		{ text: 'K.E.=mgh', correct: false }
+		]
+	},
+	{
+		question: 'What is the equation to calculuate weight?',
+		answers: [
+		{ text: 'W=m', correct: false },
+		{ text: 'W=g', correct: false },
+		{ text: 'W=mg', correct: true },
+		{ text: 'W=mg/2', correct: false }
+		]
+	},
+	{
+		question: 'What is the equation for Newtons second law?',
+		answers: [
+		{ text: 'Fg=(Gm1m2)/r2', correct: false },
+		{ text: 'F=ma', correct: true },
+		{ text: 'J=FΔt', correct: false },
+		{ text: 'po=pf', correct: false }
+		]
+	},
+]
+
+
+
+</script>
+</body>
+</html>

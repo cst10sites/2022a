@@ -1,0 +1,210 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 75px 100px;
+  background-color: Black;
+  text-align: center;
+}
+
+/* Style the header */
+header {
+  text-align: center;
+  padding: 15px;
+  font-size: 200px;
+  color: Ivory;
+}
+
+table {
+	border-collapse: collapse;
+	text-align: center;
+}
+
+th, td {
+	padding: 5px;
+	text-align: left;
+	text-align: center;
+}
+
+table, th, td {
+	border: 2px solid white;
+	text-align: center;
+}
+
+img {
+	text-align: center;
+}
+
+a {
+	text-align: center;
+}
+button {
+	text-align: center;
+}
+section {
+	text-align: center;
+}
+
+h1 {
+	color: Lavender;
+	text-align: center;
+}
+
+
+h3 {
+	color: GhostWhite;
+	text-align: center;
+}
+
+form {
+	color: Lavender;
+	text-align: center;
+}
+
+table {
+	color: Lavender;
+	text-align: center;
+}
+
+tr {
+	color: Lavender;
+	text-align: center;
+}
+
+td {
+	color: Lavender;
+	text-align: center;
+}
+
+
+label {
+	color: Lavender;
+}
+
+input {
+	color: Lavender;
+}
+
+div {
+	padding: 50px;
+	color: Black;
+}
+
+ol, li {
+	font-size: 25px;
+	color: Azure;
+	text-align: center;
+}
+
+h2 {
+	color: Azure;
+	text-align: center;
+}
+
+p {
+	font-size: 25px;
+	color: Azure;
+	text-align: center;
+}
+.Button {
+	border: 2px solid black;
+	color: black;
+	padding: 15px 15px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 20px;
+	margin: 4px 2px;
+	transition-duration: 0.4s;
+	padding: 5px;
+ }
+
+.Button:hover	{
+	transform: translate(7px, -7px);
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+	
+}
+
+.velocity {
+	border: 2px solid black;
+	color: black;
+	padding: 15px 15px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 20px;
+	margin: 4px 2px;
+	transition-duration: 0.4s;
+ }
+
+.velocity:hover	{
+	transform: translate(7px, -7px);
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+	
+}
+
+.Blue {
+	border: 2px solid black;
+	color: Bisque;
+	padding: 15px 15px;
+	text-align: center;
+	text-decoration: none;
+	text-color: BlanchedAlmond;
+	display: inline-block;
+	font-size: 20px;
+	margin: 4px 2px;
+	transition-duration: 0.4s;
+ }
+
+.Blue:hover	{
+	transform: translate(7px, -7px);
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+	
+}
+
+.StartStop {
+	border: 2px solid black;
+	color: black;
+	padding: 15px 15px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 20px;
+	margin: 4px 2px;
+	transition-duration: 0.4s;
+ }
+
+.StartStop:hover	{
+	transform: translate(7px, -7px);
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+	
+}
+
+.Question {
+	border: 2px solid black;
+	color: black;
+	padding: 15px 15px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 20px;
+	margin: 4px 2px;
+	transition-duration: 0.4s;
+ }
+
+.Question:hover	{
+	transform: translate(7px, -7px);
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.Question {
+background-color: Thistle;
+}
+
+.StartStop {
+background-color: Tan;
+}
+
+
+.center {
+ text-align: center;
+ font-size: 50px;
+}

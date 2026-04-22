@@ -1,0 +1,20 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 75px 100px;
+  
+}
+
+/* Style the header */
+header {
+  text-align: center;
+  padding: 15px;
+  color: MidnightBlue;
+  font-size: 200px;
+}
+
+div {
+	padding: 50px;
+	color: Black;
+}
+
+/* Copied and pasted below *** add mySlide3 and 4 below */

@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Assignment 3</title>
+<style>
+
+
+.Button {
+	border: 2px solid black;
+	color: black;
+	padding: 15px 15px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 20px;
+	margin: 4px 2px;
+	transition-duration: 0.4s;
+ }
+
+
+.Button:hover	{
+	transform: translate(7px, -7px);
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+	
+}
+
+
+.Blue {
+	border: 2px solid black;
+	color: Bisque;
+	padding: 15px 15px;
+	text-align: center;
+	text-decoration: none;
+	text-color: BlanchedAlmond;
+	display: inline-block;
+	font-size: 20px;
+	margin: 4px 2px;
+	transition-duration: 0.4s;
+ }
+
+
+.Blue:hover	{
+	transform: translate(7px, -7px);
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+	
+}
+body{
+	background-color: DeepPink;
+
+}
+
+.StartStop {
+	border: 2px solid black;
+	color: black;
+	padding: 15px 15px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 20px;
+	margin: 4px 2px;
+	transition-duration: 0.4s;
+ }
+
+
+.StartStop:hover	{
+	transform: translate(7px, -7px);
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+	
+}
+
+.Question {
+	border: 2px solid black;
+	color: black;
+	padding: 15px 15px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 20px;
+	margin: 4px 2px;
+	transition-duration: 0.4s;
+ }
+
+
+.Question:hover	{
+	transform: translate(7px, -7px);
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+	
+}
+
+.Question {
+background-color: Thistle;
+}
+
+.StartStop {
+background-color: Tan;
+}
+
+
+</style>
+<link rel="icon" href="favicon.ico">
+</head>
+<body>
+<h1><font size="+15">Simon says</font></h1>
+<p><font size="+2">Score:</font>  <font size="+2"><span id="scoreDisplay">0</span></font></p>
+<p><font size="+2">Time:</font> <font size="+2"><span id="timeDisplay">0</span></font></p>
+<p><font size="+2">Simon says:</font> <font size="+2"><span id="colorDisplay">0</span></font></p>
+<button class="Blue" onclick="clickColor('Blue');" style="width:15%; height:60px; background-color: Blue;">Blue</button>
+<button class="Button" onclick="clickColor('Red');" style="width:15%; height:60px; background-color: Red;">Red</button>
+<br></br>
+<button class="Button" onclick="clickColor('Green');" style="width:15%; height:60px; background-color: Green;">Green</button>
+<button class="Button" onclick="clickColor('Yellow');" style="width:15%; height:60px; background-color: Yellow;">Yellow</button>
+<br></br>
+<button class="StartStop" id="Stop" onclick="clickStartStop();" style="width:15%; height:60px ">Start</button>
+<button class="Question" id="Question" onclick="pickFavoriteColor();" style="width:15%; height:60px ">Question</button>
+
+<br></br>
+<br></br>
+
+
+<audio controls autoplay loop>
+<source src="bgmusic.mp3" type="audio/mpeg">
+</audio>
+
+<button onclick="playAudio();">Play to relax after the game</button>
+
+<!--https://mixkit.co/free-sound-effects-->
+<script>
+function playAudio() {
+  var myAudio = new Audio('soundfx.mp3');
+  myAudio.play();
+}
+</script>
+
+
+<script src="script.js"></script><!--External Javascrpt-->
+</body>
+</html>
